@@ -21,9 +21,9 @@ author: Redwan
 
 navbar-links:
   About Me: "aboutme"
-  #Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  # Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
   Articles: "https://helloredwan.me"
 
 ################
@@ -49,7 +49,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
- # email: "contact@helloredwan.me"
+# email: "contact@helloredwan.me"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: redoudou
   twitter: redoudoum
