@@ -18,7 +18,7 @@ Some of my first explorations using MidJourney involved revisiting famous skylin
 
 > If Van Gogh painted the New York skyline with the Empire State building and christler building. --v 5
 
-![NYC Skyline painted by Van Gogh]({{site.baseurl}}/_posts/Redwan_if_Van_Gogh_painted_the_New_York_skyline_with_the_Empire_0ebebe90-fc20-4d85-b4b5-0a56f5d36842.png)
+![NYC Skyline painted by Van Gogh](/_posts/Redwan_if_Van_Gogh_painted_the_New_York_skyline_with_the_Empire_0ebebe90-fc20-4d85-b4b5-0a56f5d36842.png | relative_url)
 
 
 > if Wassily Kandinsky painted the New York skyline with the Empire State building and christler building.
