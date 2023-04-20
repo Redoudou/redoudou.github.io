@@ -2,10 +2,11 @@
 layout: page
 title: About me
 subtitle: Some details about my background
+published: true
 ---
 
 
-# Hello I am Redwan
+# Hello I am Redwan, I Lead Web3 Project Management Teams
 
 - I am based in New York.
 - I work for ChainSafe System, a leading **Crypto and Blockchain** research and development firm, I manage the consulting and R&D practice.
@@ -14,7 +15,7 @@ subtitle: Some details about my background
 - I combine more than 15 years of experience in start-up sales development, program management and **executive consulting service**s in multiple industries from Investment Banking to Hospitality with a focus on Blockchain cross-functional teams and global operations.
 
 ## Blockchain Journey
-- In 2019, I fell into Blockchain via the Blockchain for Social Impact Coalition in NYC.
+- In 2019, I fell in love with Blockchain via the Blockchain for Social Impact Coalition in NYC.
 - In 2020, the team I built won the 1st place at the Blockchain for Social Impact Incubator with Lease On The Block.
 - In 2021, I joined ChainSafe where he manages the consulting team and delivery for clients such as Filecoin, Ethereum Foundation, The Graph, in highly technical areas from Web3 Gaming to DeFi to Protocol R&D. 
 
@@ -31,5 +32,4 @@ And also multiple conferences such as LisCon, EthDenver...
 some of my POAP https://app.poap.xyz/scan/numnum.eth
 ## A little more about me
 I am particularly passionate about the intersection of technology and social impact, as how the new paradigms created by Blockchain can change the way humans work together. 
-In my spare time when I am not attending conferences, I cook a lot, I love Calvados and cocktails. 
-
+In my spare time when I am not attending conferences, I cook a lot, I love Calvados and cocktails.
