@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Journey to train my own Stable Diffusion
 
@@ -27,5 +27,3 @@ To do this I watched a lot of tutorials but 2 stood out.
 Test on going stay put.
 
 ![Screenshot 2023-06-09 at 18.17.40.png]({{site.baseurl}}/_posts/Screenshot 2023-06-09 at 18.17.40.png)
-
-
