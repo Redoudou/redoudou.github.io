@@ -29,8 +29,8 @@ published: true
 - 2022 - Jun: [The Graph Arweave Implementation](https://github.com/graphprotocol/thegarii)
 - 2022 - Jun: [RUST implementation of API3's Beacon Server](https://github.com/ChainSafe/api3-rust)
 - 2022 - Sep: [Polywrap SDK Wrapper for Substrate and Polkadot](https://github.com/ChainSafe/integrations)
--2022 - Oct: [Rust implementation of W-OTS+ (Winternitz One-Time Signatures) for XXNetwork Substrate Chain](https://github.com/ChainSafe/xx-primitives)
--2022 -Oct: [Allow Metamask users to interact with Near chain using Snap](https://github.com/ChainSafe/near-snap) 
+- 2022 - Oct: [Rust implementation of W-OTS+ (Winternitz One-Time Signatures) for XXNetwork Substrate Chain](https://github.com/ChainSafe/xx-primitives)
+- 2022 -Oct: [Allow Metamask users to interact with Near chain using Snap](https://github.com/ChainSafe/near-snap) 
 - 2022 - Nov: Uniswap V3 Rust implementation—Composable Finance
 - 2023 - Feb: The Graph Erigon Instrumentation
 
