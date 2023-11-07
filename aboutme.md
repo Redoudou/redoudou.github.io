@@ -19,13 +19,13 @@ published: true
 
 - April 2022, I transitioned into a managerial role where I have been responsible for building and mentoring a team of three senior technical project managers. I have taken the lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and organizational strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
 
-## Some of the projects I delivered as a Project Manager or supervised
+## Project Portofolio Sample As PM or Supervising PM
 - Nov 2021: [Polkadot Index Network Token (PINT🍺)](https://github.com/ChainSafe/PINT)
-- Nov 2021: [Proof of Concept - EVM Gasless Transaction As A Service](https://github.com/ChainSafe/gts-client/tree/635a96556c75c042cc6296ba1bd7129895e12705 "Private Repo")
+- Nov 2021: [Proof of Concept - EVM Gasless Transaction As A Service - "Private Repo"](https://github.com/ChainSafe/gts-client/tree/635a96556c75c042cc6296ba1bd7129895e12705)
 - Dec 2021: Implementing front-end Metamask Sign-in 
 
 - Feb 2022: [Filecoin Substrate Bridge](https://github.com/ChainSafe/filecoindot)
-- May 2022: [Create Token Drop mechanism based on EVM Chain NFT trading data (Dune & The Graph)](https://github.com/ChainSafe/palm-droptics/tree/a8a0c49875abeb610b64fe41f3a85b94c858b60e "Private Repo")
+- May 2022: [Create Token Drop software using EVM chain data from Dune & The Graph](https://github.com/ChainSafe/palm-droptics/tree/a8a0c49875abeb610b64fe41f3a85b94c858b60e)
 - Jun 2022: [The Graph Arweave Implementation](https://github.com/graphprotocol/thegarii)
 - Jun 2022: [RUST implementation of API3's Beacon Server](https://github.com/ChainSafe/api3-rust)
 - Sep 2022: [Polywrap SDK Wrapper for Substrate and Polkadot](https://github.com/ChainSafe/integrations)
@@ -47,9 +47,11 @@ published: true
 - Feb 2022: **EthDenver**
 - Jun 2022: **Consensus Austin**
 - Aug 2022: **Blockchain Futurist Conference 2022 Toronto**
-- Oct 2022: **DevCon Bogota** - *"Social Impact and favorite presentation at DevCon"* - [link](https://docs.google.com/document/d/1y4Yn9OQsxYx5eHBO8uqbTQ9gZqhIjKsiwvnVFZ-giQY/edit?usp=sharing)
-- Jul 2023: **EthCC Paris** - Focus on Staking 
+- Sep 2022: **Asia Blockchain Week Singapore**
+- Oct 2022: **DevCon Bogota** - [*"Ethereum is more than NFT, best social impact talks"*](https://docs.google.com/document/d/1y4Yn9OQsxYx5eHBO8uqbTQ9gZqhIjKsiwvnVFZ-giQY/edit?usp=sharing)
+- Jul 2023: **EthCC Paris**
 - Nov 2023: **Staking Summit**
+- Nov 2023: **ETH DevConnect Istanbul**
 
 Some of my POAP [https://app.poap.xyz/scan/numnum.eth](https://app.poap.xyz/scan/numnum.eth)
 
