@@ -43,7 +43,11 @@ published: true
 ### Conferences Attended
 - Oct 2021: **LisCon**
 - Feb 2022: **EthDenver**
+- Jun 2022: **Consensus Austin**
+- Aug 2022: **Blockchain Futurist Conference 2022 Toronto*
 - Oct 2022: **DevCon Bogota** - *"Social Impact and favorite presentation at DevCon"* - [link](https://docs.google.com/document/d/1y4Yn9OQsxYx5eHBO8uqbTQ9gZqhIjKsiwvnVFZ-giQY/edit?usp=sharing)
+- Jul 2023: **EthCC Paris** - Focus on Staking 
+- Nov 2023: **Staking Summit**
 
 Some of my POAP [https://app.poap.xyz/scan/numnum.eth](https://app.poap.xyz/scan/numnum.eth)
 
