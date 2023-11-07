@@ -16,6 +16,7 @@ published: true
 - In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC.
 - In 2020, the team I built won 1st place at the Blockchain for Social Impact Incubator with Lease On The Block.
 - In 2021, I joined ChainSafe where I manage the consulting team and delivery for clients such as Filecoin, Ethereum Foundation, The Graph, in highly technical areas from Web3 Gaming to DeFi to Protocol R&D.
+
 - April 2022, I transitioned into a managerial role where I have been responsible for building and mentoring a team of three senior technical project managers. I have taken the lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and organizational strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
 
 ## Some of the projects I delivered as a Project Manager or supervised
@@ -31,6 +32,7 @@ published: true
 - Oct 2022: [Rust implementation of W-OTS+ (Winternitz One-Time Signatures) for XXNetwork Substrate Chain](https://github.com/ChainSafe/xx-primitives)
 - Oct 2022: [Allow Metamask users to interact with Near chain using Snap](https://github.com/ChainSafe/near-snap) 
 - Nov 2022: Uniswap V3 Rust implementation—Composable Finance
+
 - Feb 2023: The Graph Erigon Instrumentation
 
 ## Speaking / Community Engagements
@@ -40,7 +42,7 @@ published: true
 - Aug 2022: **EthToronto** - Mentor and Judge
 - Sep 2022: **TOKEN2049 / Singapore Filecoin Summit** - *"Values in Web3"*
 
-### Conferences Attended
+## Conferences Attendee
 - Oct 2021: **LisCon**
 - Feb 2022: **EthDenver**
 - Jun 2022: **Consensus Austin**
