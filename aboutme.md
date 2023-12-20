@@ -6,7 +6,7 @@ published: true
 ---
 # Hello, I am Redwan
 
-- Based in New York, I work for ChainSafe System, a leading **Crypto and Blockchain** research and development firm. I manage the consulting and R&D teams' delivery.
+- Based in New York, I work for ChainSafe System, a leading **Crypto and Blockchain** research and development firm. I manage the Delivery teams and Strategic projects.
 - I specialize in getting work done, from inception to delivery.
 
 - I bring more than 15 years of experience in start-up sales development, program management, and **executive consulting services** in multiple industries from Investment Banking to Hospitality, with a focus on Blockchain cross-functional teams and global operations.
