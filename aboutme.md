@@ -6,18 +6,21 @@ published: true
 ---
 # Hello, I am Redwan
 
-- Based in New York, I work for ChainSafe System, a leading **Crypto and Blockchain** research and development firm. I manage the Delivery teams and Strategic projects.
-- I specialize in getting work done, from inception to delivery.
+- Based in New York, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I manage the Delivery teams and Strategic projects.
 
-- I bring more than 15 years of experience in start-up sales development, program management, and **executive consulting services** in multiple industries from Investment Banking to Hospitality, with a focus on Blockchain cross-functional teams and global operations.
+- I have more than 15 years of experience in start-up and large organizations program management in industries from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations.
+
+## A little more about me
+I am particularly passionate about the intersection of technology and social impact, and how the new paradigms created by Blockchain can change the way humans work together. I am an avid reader of all the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics). 
+I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nuture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
 
 ## Blockchain Journey
-- In 2017, I bought my first Bitcoins out of curiosity, but only saw Blockchain as something for investment bankers.
-- In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC.
-- In 2020, the team I built won 1st place at the Blockchain for Social Impact Incubator with Lease On The Block.
+- In 2017, I bought my first Bitcoins out of curiosity.
+- In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC and especially [Timocah Tillemann](https://www.youtube.com/watch?v=9mFA8PsKnHg)
+- In 2020, I created [Lease On The Block](http://leaseontheblock.care/en/) using smart contrats to increase trust in affordable housing market in NYC.
 - In 2021, I joined ChainSafe where I manage the consulting team and delivery for clients such as Filecoin, Ethereum Foundation, The Graph, in highly technical areas from Web3 Gaming to DeFi to Protocol R&D.
 
-- April 2022, I transitioned into a managerial role where I have been responsible for building and mentoring a team of three senior technical project managers. I have taken the lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and organizational strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
+- April 2022, I am responsible for building and mentoring a team of three senior technical project managers. I lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and business strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
 
 ## Project Portofolio Sample As PM or Supervising PM
 - Nov 2021: [Polkadot Index Network Token (PINT🍺)](https://github.com/ChainSafe/PINT)
@@ -55,6 +58,4 @@ published: true
 
 Some of my POAP [https://app.poap.xyz/scan/numnum.eth](https://app.poap.xyz/scan/numnum.eth)
 
-## A little more about me
-I am particularly passionate about the intersection of technology and social impact, and how the new paradigms created by Blockchain can change the way humans work together. I am an avid reader of all the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics). 
-In my spare time, when I am not attending conferences or traveling, I cook and read a lot of press.
+
