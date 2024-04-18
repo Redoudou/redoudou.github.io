@@ -11,7 +11,7 @@ published: true
 - I have more than 15 years of experience in start-up and large organizations program management in industries from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations.
 
 ## Career
-- 2008> 2016 Project and Program management for Aerospace and Investment Bank. Mostly doing SAP, BI application large international projects.
+- 2008> 2016 Project and Program management for Aerospace and Investment Bank. Mostly doing application integration for large international projects.
 - In 2017, I bought my first Bitcoins out of curiosity.
 - In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC and especially [Timocah Tillemann](https://www.youtube.com/watch?v=9mFA8PsKnHg)
 - In 2020, I created [Lease On The Block](http://leaseontheblock.care/en/) using smart contrats to increase trust in affordable housing market in NYC.
