@@ -6,7 +6,7 @@ published: true
 ---
 # Hello, I am Redwan
 
-- Based in New York, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I lead the Developer Tooling Program and a team of 4 senior project managers.
+-Based in Brooklyn NY, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I lead the Developer Tooling Program and a team of 4 senior project managers.
 
 - I have more than 15 years of experience in start-up and large organizations program management in industries from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations.
 
