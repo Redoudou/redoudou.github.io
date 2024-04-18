@@ -6,21 +6,20 @@ published: true
 ---
 # Hello, I am Redwan
 
-- Based in New York, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I manage the Delivery teams and Strategic projects.
+- Based in New York, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I lead the Developer Tooling Program and a team of 4 senior project managers.
 
 - I have more than 15 years of experience in start-up and large organizations program management in industries from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations.
 
-## A little more about me
-I am particularly passionate about the intersection of technology and social impact, and how the new paradigms created by Blockchain can change the way humans work together. I am an avid reader of all the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics). 
-I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nuture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
-
-## Blockchain Journey
+## Career
+- 2008> 2016 Project and Program management for Aerospace and Investment Bank. Mostly doing SAP, BI application large international projects.
 - In 2017, I bought my first Bitcoins out of curiosity.
 - In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC and especially [Timocah Tillemann](https://www.youtube.com/watch?v=9mFA8PsKnHg)
 - In 2020, I created [Lease On The Block](http://leaseontheblock.care/en/) using smart contrats to increase trust in affordable housing market in NYC.
 - In 2021, I joined ChainSafe where I manage the consulting team and delivery for clients such as Filecoin, Ethereum Foundation, The Graph, in highly technical areas from Web3 Gaming to DeFi to Protocol R&D.
 
-- April 2022, I am responsible for building and mentoring a team of three senior technical project managers. I lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and business strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
+- April 2022, I am responsible for building and mentoring a team of 4 senior technical project managers. I lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and business strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
+
+- February 2024, took the leadership of the developer tooling program at Chainsafe. Led the strategy and execution of this 13 people program. 
 
 ## Project Portofolio Sample As PM or Supervising PM
 - Nov 2021: [Polkadot Index Network Token (PINT🍺)](https://github.com/ChainSafe/PINT)
@@ -56,6 +55,8 @@ I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) si
 - Nov 2023: **Staking Summit**
 - Nov 2023: **ETH DevConnect Istanbul**
 
+## A little more about me
+I am particularly passionate about the intersection of technology and social impact, and how the new paradigms created by Blockchain can change the way humans work together. I am an avid reader of all the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics). 
+I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nuture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
+
 Some of my POAP [https://app.poap.xyz/scan/numnum.eth](https://app.poap.xyz/scan/numnum.eth)
-
-
