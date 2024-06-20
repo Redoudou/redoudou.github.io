@@ -8,7 +8,7 @@ published: true
 
 - Based in Brooklyn, NY, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I **lead the Developer Tooling Program** and a team of 4 senior project managers. Among many things, we manage the **Web3.js library, with about 2M downloads per month.**
 
-- I have more than 15 years of experience in start-up and large organization program management in industries from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations.
+- I have more than 16 years of program management experience in start-up and large organization from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations for the last 4 years.
 
 ## Career
 - 2008> 2016 Project and Program management for Aerospace and Investment Bank. Mostly doing application integration for large international projects.
