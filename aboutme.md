@@ -51,14 +51,15 @@ published: true
 - Sep 2022: **TOKEN2049 / Singapore Filecoin Summit** - *"Values in Web3"*
 
 ## Conferences Attendee
-- Oct 2021: **LisCon**
-- Feb 2022: **EthDenver**
-- Jun 2022: **Consensus Austin**
-- Aug 2022: **Blockchain Futurist Conference 2022 Toronto**
-- Sep 2022: **Asia Blockchain Week Singapore**
-- Oct 2022: **DevCon Bogotá** - [*"Ethereum is more than NFT, best social impact talks"*](https://docs.google.com/document/d/1y4Yn9OQsxYx5eHBO8uqbTQ9gZqhIjKsiwvnVFZ-giQY/edit?usp=sharing)
-- Jul 2023: **EthCC Paris**
-- Nov 2023: **Staking Summit**
-- Nov 2023: **ETH DevConnect Istanbul**
+- **NEXT** Sep 2024: EthSafari Nairobi
 
-
+- Jul 2024: EthCC Brussels
+- Nov 2023: ETH DevConnect Istanbul
+- Nov 2023: Staking Summit
+- Jul 2023: EthCC Paris
+- Oct 2022: DevCon Bogotá - "Ethereum is more than NFT, best social impact talks"
+- Sep 2022: Asia Blockchain Week Singapore
+- Aug 2022: Blockchain Futurist Conference 2022 Toronto
+- Jun 2022: Consensus Austin
+- Feb 2022: ETHDenver
+- Oct 2021: LisCon
