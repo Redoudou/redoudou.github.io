@@ -6,12 +6,18 @@ published: true
 ---
 # Hello, I am Redwan
 
-- Based in Brooklyn, NY, I work for [ChainSafe System](https://chainsafe.io/), the leading **Crypto and Blockchain** research and development firm. I **lead the Developer Tooling Program** and a team of 4 senior project managers. Among many things, we manage the **Web3.js library, with about 2M downloads per month.**
+- French with algerian roots, I am based in Brooklyn, NY, and I work for [ChainSafe System](https://chainsafe.io/), the leading research and development firm in the fields of Cryptography and Blockchain. I oversee the **Developer Tooling Program** and a team of four senior project managers. Our responsibilities include managing the Web3.js library, which has an average of 2M downloads per month.
 
-- I have more than 16 years of program management experience in start-up and large organization from Investment Banking to Hospitality, with a focus on Blockchain / Web3 cross-functional teams and global operations for the last 4 years.
+- I have over 16 years of experience in program management in both start-up and large organizations, including in investment banking, aerospace and defense, and hospitality. Since 2019, I have focused on **blockchain and Web3 cross-functional teams and global operations**.
 
-## Career
-- 2008> 2016 Project and Program management for Aerospace and Investment Bank. Mostly doing application integration for large international projects.
+## A little more about me
+- I'm really interested in how technology and social impact intersect, and I think the new paradigms created by blockchain could change the way we work together as humans. I'm a big fan of Michel Bauwens (P2P Foundation) and Marcel Mauss work. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics) and [The gift] (https://files.libcom.org/files/Mauss%20-%20The%20Gift.pdf).  
+- I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nurture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
+
+- Some of my conferences [POAP](https://app.poap.xyz/scan/numnum.eth)
+
+## Journey
+- 2008> 2016 Project and program management for aerospace and investment banks. I integrated applications for large international projects.
 - In 2017, I bought my first Bitcoins out of curiosity.
 - In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC and especially [Timocah Tillemann](https://www.youtube.com/watch?v=9mFA8PsKnHg)
 - In 2020, I founded [Lease On The Block](http://leaseontheblock.care/en/) Non-Profit using smart contracts to increase trust in the affordable housing market in NYC.
@@ -55,8 +61,4 @@ published: true
 - Nov 2023: **Staking Summit**
 - Nov 2023: **ETH DevConnect Istanbul**
 
-## A little more about me
-I am particularly passionate about the intersection of technology and social impact, and how the new paradigms created by Blockchain can change the way humans work together. I am an avid reader of all the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics). 
-I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nurture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
 
-Some of my POAP [https://app.poap.xyz/scan/numnum.eth](https://app.poap.xyz/scan/numnum.eth)
