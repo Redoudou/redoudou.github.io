@@ -6,13 +6,13 @@ published: true
 ---
 # Hello, I am Redwan
 
-- French with algerian roots, I am based in Brooklyn, NY, and I work for [ChainSafe System](https://chainsafe.io/), the leading research and development firm in the fields of Cryptography and Blockchain. I oversee the **Developer Tooling Program** and a team of four senior project managers. Our responsibilities include managing the Web3.js library, which has an average of 2M downloads per month.
-
+- French with algerian roots, I am based in Brooklyn since 2015. I work for [ChainSafe System](https://chainsafe.io/), leading research and development firm in the fields of Cryptography and Blockchain. I lead the  strategy of **Developer Tooling Program**. 
 - I have over 16 years of experience in program management in both start-up and large organizations, including in investment banking, aerospace and defense, and hospitality. Since 2019, I have focused on **blockchain and Web3 cross-functional teams and global operations**.
 
 ## A little more about me
-- I'm really interested in how technology and social impact intersect, and I think the new paradigms created by blockchain could change the way we work together as humans. I'm a big fan of Michel Bauwens (P2P Foundation) and Marcel Mauss work. Especially [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics) and [The gift] (https://files.libcom.org/files/Mauss%20-%20The%20Gift.pdf).  
-- I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nurture strong ties with the hospitality industry in NYC. In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
+- I'm really interested in how technology, social impact and economic empowerement intersect. I think the new paradigms created by blockchain could change the way we work together as humans. I find a lot of inspiration in the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Respectively [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics) and [The gift](https://files.libcom.org/files/Mauss%20-%20The%20Gift.pdf).  
+- I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nurture strong ties with the hospitality industry in NYC. 
+- In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
 
 - Some of my conferences [POAP](https://app.poap.xyz/scan/numnum.eth)
 
