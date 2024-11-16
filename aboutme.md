@@ -55,7 +55,6 @@ published: true
 - Nov 2024: DevCon 7 - BKK
 - Nov 2024: [Enterprise Ethereum Alliance Industry Day at DevCon](https://lu.ma/uvn74xnl)
 - Nov 2024: [Staking Summit 2](https://lu.ma/stakingsummit24)
-
 - Sep 2024: EthSafari Nairobi
 - Jul 2024: EthCC Brussels
 - Nov 2023: ETH DevConnect Istanbul
