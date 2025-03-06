@@ -4,28 +4,31 @@ title: About me
 subtitle: Some details about my background
 published: true
 ---
-# Hello, I am Redwan
+# Redwan
 
-- French with algerian roots, I am based in Brooklyn since 2015. I work for [ChainSafe System](https://chainsafe.io/), leading research and development firm in the fields of Cryptography and Blockchain. I lead the  strategy of **Developer Tooling Program**. 
-- I have over 16 years of experience in program management in both start-up and large organizations, including in investment banking, aerospace and defense, and hospitality. Since 2019, I have focused on **blockchain and Web3 cross-functional teams and global operations**.
+- **Background:** French with Algerian roots, based in Brooklyn since 2015
+- **Current Role:** Executive Director of the Enterprise Ethereum Alliance (EEA) since January 2025
+- **Previous Role:** Led the Developer Tooling Program at ChainSafe Systems, a leading R&D firm in Cryptography and Blockchain
+- **Experience:** 16+ years in program management across startups and large organizations (investment banking, aerospace and defense, hospitality)
+- **Specialization:** Since 2019, focused on blockchain and Web3 cross-functional teams and global operations
+- **Mission:** Federating the Ethereum ecosystem and showcasing Ethereum as the optimal platform for enterprise Web3 applications
 
-## A little more about me
-- I'm really interested in how technology, social impact and economic empowerement intersect. I think the new paradigms created by blockchain could change the way we work together as humans. I find a lot of inspiration in the work of Michel Bauwens (P2P Foundation) and Marcel Mauss. Respectively [The Common Economy](https://wiki.p2pfoundation.net/Introduction_to_Commons_Economics) and [The gift](https://files.libcom.org/files/Mauss%20-%20The%20Gift.pdf).  
-- I am a partner in my sister [Restaurant in France](https://ausanschichi.bzh/) since 2020 and nurture strong ties with the hospitality industry in NYC. 
-- In my spare time, when I am not attending conferences or traveling, I mentor young french professionals in their [Web3 journey](https://app.myjobglasses.com)
+## Personal Interests
+- Exploring intersections of technology, social impact, and economic empowerment
+- Influenced by Michel Bauwens (P2P Foundation) and Marcel Mauss on commons economics and gift economies
+- Partner in sister's restaurant in France since 2020; maintains strong ties with NYC hospitality industry
+- Mentors young French professionals in Web3 through myjobglasses.com
+- Active conference participant (POAP collection: app.poap.xyz/scan/numnum.eth)
 
-- Some of my conferences [POAP](https://app.poap.xyz/scan/numnum.eth)
-
-## Journey
-- 2008> 2016 Project and program management for aerospace and investment banks. I integrated applications for large international projects.
-- In 2017, I bought my first Bitcoins out of curiosity.
-- In 2019, I fell in love with Blockchain through the Blockchain for Social Impact Coalition in NYC and especially [Timocah Tillemann](https://www.youtube.com/watch?v=9mFA8PsKnHg)
-- In 2020, I founded [Lease On The Block](http://leaseontheblock.care/en/) Non-Profit using smart contracts to increase trust in the affordable housing market in NYC.
-- In 2021, I joined ChainSafe where I manage the consulting team and delivery for clients such as Filecoin, Ethereum Foundation, The Graph, in highly technical areas from Web3 Gaming to DeFi to Protocol R&D.
-
-- April 2022, I am responsible for building and mentoring a team of 4 senior technical project managers. I lead on various cross-company strategic projects, including the implementation of our capacity planning process, aligning it with our financial and business strategies. This initiative, overseen directly by the executive team, aims to enhance our company's overall delivery performance.
-
-- February 2024, took the leadership of the developer tooling program at Chainsafe. Led the strategy and execution of this 13 people program. 
+## Professional Journey
+- 2008-2016: Project/program management in aerospace and investment banking
+- 2017: First Bitcoin purchase
+- 2019: Engaged with Blockchain for Social Impact Coalition in NYC
+- 2020: Founded Lease On The Block non-profit using smart contracts for affordable housing
+- 2021: Joined ChainSafe to manage consulting team for clients including Filecoin, Ethereum Foundation, The Graph
+- 2022: Built and mentored team of senior technical project managers; led cross-company strategic initiatives
+- 2024: Led 13-person Developer Tooling program at ChainSafe
+- 2025: Appointed Executive Director of the Enterprise Ethereum Alliance
 
 ## Project Portfolio Sample As Program Manager
 - [Polkadot Index Network Token (PINT🍺)](https://github.com/ChainSafe/PINT)
