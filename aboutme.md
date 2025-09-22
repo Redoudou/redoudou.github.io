@@ -70,6 +70,13 @@ published: true
 
 ## Conferences Attendee
 
+- July 2025: EthCC @ Cannes
+- June 2025: Consensus @ Toronto
+- May 2025: 1871 Chicago
+- May 2025: SAP Sapphire @ Orlando
+- Apr 2025: Nacha @Nola
+
+- Feb 2025: DAS NYC, EthDenver
 - Nov 2024: DevCon 7 - BKK
 - Nov 2024: [Enterprise Ethereum Alliance Industry Day at DevCon](https://lu.ma/uvn74xnl)
 - Nov 2024: [Staking Summit 2](https://lu.ma/stakingsummit24)
