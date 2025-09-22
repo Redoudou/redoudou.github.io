@@ -6,12 +6,14 @@ published: true
 ---
 # Redwan
 
-- **Background:** French with Algerian roots, based in Brooklyn since 2015
-- **Current Role:** Executive Director of the Enterprise Ethereum Alliance (EEA) since January 2025
+- **Current Role:** Executive Director of the Enterprise Ethereum Alliance (EEA) since January 2025. I guide the organization’s mission to position Ethereum as the institutional-grade standard for global finance and industry.
+
 - **Previous Role:** Led the Developer Tooling Program at ChainSafe Systems, a leading R&D firm in Cryptography and Blockchain
 - **Experience:** 16+ years in program management across startups and large organizations (investment banking, aerospace and defense, hospitality)
 - **Specialization:** Since 2019, focused on blockchain and Web3 cross-functional teams and global operations
 - **Mission:** Federating the Ethereum ecosystem and showcasing Ethereum as the optimal platform for enterprise Web3 applications
+- **Background:** French with Algerian roots, based in Brooklyn since 2015
+
 
 ## Personal Interests
 - Exploring intersections of technology, social impact, and economic empowerment
@@ -30,6 +32,26 @@ published: true
 - 2024: Led 13-person Developer Tooling program at ChainSafe
 - 2025: Appointed Executive Director of the Enterprise Ethereum Alliance
 
+
+## Speaking Engagements
+
+### 2025
+- Feb 2025: **EthDenver @ Circle - How to build for Enterprises**
+- Apr 2025: [**NACHA Ethereum Is Open for Business: How Institutions Are Using Blockchain in the Real World (Polygon + Linea)**](https://payments.nacha.org/session/ethereum-open-business-how-institutions-are-using-blockchain-real-world)
+- May 2025: [**1871 Keynote - "Why Ethereum is the best ecosystem to build for Enterprises"**](https://1871.com/innovation-labs/emerging-tech-summit/)
+- July 2025: [**EthCC - Breaking Into the Enterprise Market**](https://www.youtube.com/watch?v=ukW0XCwaZ6s)
+[- July 2025: **SEC Crypto Task Force - Ethereum is the Standard**](https://www.sec.gov/files/ctf-memo-erc-3643-association-071625.pdf)
+- Sep 2025: [**TradFi meets DeFi -  tokenization and collateral management with DTCC JPM Plume and Chainlink"**](https://x.com/EntEthAlliance/status/1969157194752147470)
+
+### Past 
+- Dec 2021: **CSCON** - *"Cross Chain Messaging (XCM): a use case with the PINT index"* [Video](https://www.youtube.com/watch?v=s-f2JJk4Q44&t=35s)
+- Feb 2022: **IPFS Force** - *"Filecoin Substrate Bridge—Limitations and perspectives* [link](https://twitter.com/force_ipfs/status/1480879442767474692?s=20)
+- Jun 2022: **CONSENSUS** - *"Smart Contract Wallets Introduction to EIP 3074"* - [Video](https://youtu.be/jHB-k6H5T0k?t=528)
+- Aug 2022: **EthToronto** - Mentor and Judge
+- Sep 2022: **TOKEN2049 / Singapore Filecoin Summit** - *"Values in Web3"*
+- Sep 2024: **EthSafari Kenya**
+
+
 ## Project Portfolio Sample As Program Manager
 - [Polkadot Index Network Token (PINT🍺)](https://github.com/ChainSafe/PINT)
 - [Proof of Concept - EVM Gasless Transaction As A Service - "Private Repo"](https://github.com/ChainSafe/gts-client/tree/635a96556c75c042cc6296ba1bd7129895e12705)
@@ -45,13 +67,6 @@ published: true
 - The Graph Erigon Instrumentation
 - [Zcash Web Wallet - Feasibility Study](https://solutions.chainsafe.io/featured/Publications/Zcash-web-feasibility)
 - Maintenance of the Web3.js library
-
-## Speaking / Community Engagements
-- Dec 2021: **CSCON** - *"Cross Chain Messaging (XCM): a use case with the PINT index"* [Video](https://www.youtube.com/watch?v=s-f2JJk4Q44&t=35s)
-- Feb 2022: **IPFS Force** - *"Filecoin Substrate Bridge—Limitations and perspectives* [link](https://twitter.com/force_ipfs/status/1480879442767474692?s=20)
-- Jun 2022: **CONSENSUS** - *"Smart Contract Wallets Introduction to EIP 3074"* - [Video](https://youtu.be/jHB-k6H5T0k?t=528)
-- Aug 2022: **EthToronto** - Mentor and Judge
-- Sep 2022: **TOKEN2049 / Singapore Filecoin Summit** - *"Values in Web3"*
 
 ## Conferences Attendee
 
