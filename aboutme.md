@@ -8,7 +8,13 @@ published: true
 
 **Executive Director of the Enterprise Ethereum Alliance** since January 2025. I lead the global organization positioning Ethereum as the institutional-grade standard for finance and industry.
 
-I manage a board that includes Joe Lubin (ConsenSys), Paul Brody (EY), and other global technology leaders. I engage directly with CEOs, founders, and C-suite executives from Fortune 500s and high-growth enterprises to shape enterprise adoption strategy. I've represented Ethereum at the SEC Crypto Task Force and spoken at major conferences across 6+ countries.
+I oversee a multi-stakeholder board of global technology leaders, including **ConsenSys, EY, Microsoft, JPMorgan, Lido, and the Ethereum Foundation**. 
+
+I work directly with CEOs and C-suite executives across Fortune 500 and high-growth organizations to convene senior decision-makers operating at the earliest stages of enterprise Ethereum adoption, where technical design, regulatory interpretation, and institutional risk are still being actively defined.
+
+My role focuses on shaping global enterprise Ethereum strategy across adoption, regulatory engagement, and ecosystem development.
+
+I’ve represented Ethereum at the SEC Crypto Task Force and spoken at major international conferences.
 
 Previously, I led the Developer Tooling Program at ChainSafe Systems, delivering projects for the Ethereum Foundation, Filecoin Foundation, Consensys, and other ecosystem leaders.
 
