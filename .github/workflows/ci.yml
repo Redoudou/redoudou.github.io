@@ -6,8 +6,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Upgrade RubyGems
-        run: gem update --system
+
+      - name: Upgrade RubyGems via apt
+        run: |
+          sudo apt-get update
+          # Option A: install/upgrade rubygems package (if available in the image)
+          sudo apt-get install -y rubygems || \
+          # Fallback Option B: install ruby-full (provides rubygems)
+          sudo apt-get install -y ruby-full
+          # show installed RubyGems version for verification
+          gem --version
+
       - name: Build the site in the jekyll/builder container
         run: |
           export JEKYLL_VERSION=3.8
