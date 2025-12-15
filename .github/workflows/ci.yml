@@ -7,19 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Upgrade RubyGems via apt
-        run: |
-          sudo apt-get update
-          # Option A: install/upgrade rubygems package (if available in the image)
-          sudo apt-get install -y rubygems || \
-          # Fallback Option B: install ruby-full (provides rubygems)
-          sudo apt-get install -y ruby-full
-          # show installed RubyGems version for verification
-          gem --version
-
       - name: Build the site in the jekyll/builder container
         run: |
-          export JEKYLL_VERSION=3.8
+          export JEKYLL_VERSION=4.3
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           -e PAGES_REPO_NWO=${{ github.repository }} \
