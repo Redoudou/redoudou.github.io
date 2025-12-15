@@ -76,22 +76,13 @@ Previously, I led the Developer Tooling Program at ChainSafe Systems, delivering
 
 ---
 
-## Conferences
-
-### 2025
-EthCC Cannes · Consensus Toronto · SAP Sapphire Orlando · 1871 Chicago · NACHA New Orleans · DAS NYC · EthDenver
-
-### 2024
-DevCon 7 Bangkok · [EEA Industry Day](https://lu.ma/uvn74xnl) · [Staking Summit 2](https://lu.ma/stakingsummit24) · EthSafari Nairobi · EthCC Brussels
-
-### 2023
-DevConnect Istanbul · Staking Summit · EthCC Paris
-
-### 2022
-[DevCon 6 Bogotá](https://docs.google.com/document/d/1y4Yn9OQsxYx5eHBO8uqbTQ9gZqhIjKsiwvnVFZ-giQY/edit) · Asia Blockchain Week Singapore · Blockchain Futurist Toronto · Consensus Austin · EthDenver
-
-### 2021
-LisCon
+| Year     | Events                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **2025** | [Abu Dhabi Finance Week](https://www.adfd.ae/) · [DevConnect Argentina](https://devconnect.org/) · Singapore Insight Forum · [Singapore FinTech Festival](https://www.fintechfestival.sg/) · [Sibos (SWIFT)](https://www.sibos.com/) · [EthCC Cannes](https://ethcc.io/) · [Consensus Toronto](https://consensus.coindesk.com/) · [SAP Sapphire Orlando](https://www.sap.com/events/sapphire.html) · [1871 Chicago](https://1871.com/) · [NACHA New Orleans](https://www.nacha.org/payments) · [Digital Asset Summit (DAS) NYC](https://blockworks.co/event/digital-asset-summit) · [ETHDenver](https://www.ethdenver.com/) |
+| **2024** | [DevCon 7 Bangkok](https://devcon.org/) · [EEA Industry Day](https://lu.ma/uvn74xnl) · [Staking Summit 2](https://lu.ma/stakingsummit24) · [EthSafari Nairobi](https://ethsafari.xyz/) · [EthCC Brussels](https://ethcc.io/)                                                                                                                                                                                                                                                                                                                                                                                       |
+| **2023** | [DevConnect Istanbul](https://devconnect.org/) · [Staking Summit](https://www.stakingsummit.com/) · [EthCC Paris](https://ethcc.io/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **2022** | [DevCon 6 Bogotá](https://devcon.org/) · [Asia Blockchain Week Singapore](https://www.asiablockchainweek.io/) · [Blockchain Futurist Toronto](https://www.futuristconference.com/) · [Consensus Austin](https://consensus.coindesk.com/) · [ETHDenver](https://www.ethdenver.com/)                                                                                                                                                                                                                                                                                                                                          |
+| **2021** | [LisCon](https://liscon.org/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ---
 
@@ -99,6 +90,6 @@ LisCon
 
 - Exploring intersections of technology, social impact, and economic empowerment
 - Influenced by Michel Bauwens (P2P Foundation) and Marcel Mauss on commons economics
-- Partner in sister's restaurant in France since 2020
+- Partner in sister's restaurant in France since 2020 - we closed down in 2025.
 - Mentors young French professionals in Web3 via [myjobglasses.com](https://myjobglasses.com)
 - POAP collector: [numnum.eth](https://app.poap.xyz/scan/numnum.eth)
