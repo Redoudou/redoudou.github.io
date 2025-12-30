@@ -10,7 +10,7 @@ published: true
 
 I oversee a multi-stakeholder board of global technology leaders, including **ConsenSys, EY, Microsoft, JPMorgan, Lido, and the Ethereum Foundation**. 
 
-As ED of the EEA, I work directly with CEOs and C-suite executives across Fortune 500 and high-growth organizations to convene senior decision-makers operating at the earliest stages of enterprise Ethereum adoption, where technical design, regulatory interpretation, and institutional risk are still being actively defined.
+As Executive Director of the EEA, I work directly with CEOs and C-suite executives at Fortune 500 and high-growth companies to support enterprise adoption of Ethereum.
 
 My role focuses on shaping global enterprise Ethereum strategy across adoption, regulatory engagement, and ecosystem development.
 
