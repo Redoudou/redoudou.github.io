@@ -55,19 +55,19 @@
     </div>
     <div class="stats4" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #DED6C8; margin-top: 46px; border: 1px solid #DED6C8;">
       <div style="background: #F6F2EA; padding: 18px 22px;">
-        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">~$10,000</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">{{ barTabText }}</div>
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Complete bar tab</div>
       </div>
       <div style="background: #F6F2EA; padding: 18px 22px;">
-        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">~$40</div>
-        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Per guest, 250 guests</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">{{ perGuestCost }}</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Per guest, {{ guests }} guests</div>
       </div>
       <div style="background: #F6F2EA; padding: 18px 22px;">
         <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">6 → 6</div>
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Bottles substituted</div>
       </div>
       <div style="background: #14110F; padding: 18px 22px; color: #F6F2EA;">
-        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">600</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 38px; line-height: 1;">{{ target }}</div>
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #E8A090; margin-top: 8px;">Cocktails to plan for</div>
       </div>
     </div>
@@ -341,7 +341,7 @@
     <div class="sechead" style="display: flex; align-items: baseline; gap: 20px; border-bottom: 1px solid #14110F; padding-bottom: 12px; margin-bottom: 26px;">
       <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #C2321E; width: 170px;">07 — Service</div>
       <div style="font-family: 'Bodoni Moda', serif; font-size: 30px;">Batching and service</div>
-      <div style="margin-left: auto; font-size: 13px; color: #6E6459;">Speed at 250 guests comes from what is pre-mixed</div>
+      <div style="margin-left: auto; font-size: 13px; color: #6E6459;">Speed at {{ guests }} guests comes from what is pre-mixed</div>
     </div>
     <div class="grid3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #DED6C8; border: 1px solid #DED6C8;">
       <div style="background: #F6F2EA; padding: 24px;">
@@ -377,15 +377,15 @@
     <div style="margin-top: 28px; border: 1px solid #DED6C8; background: #EFE9DD; padding: 22px 26px;">
       <div class="sechead" style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 16px;">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #C2321E;">Fresh ingredients — high-level quantities</div>
-        <div style="margin-left: auto; font-size: 13px; color: #6E6459;">The venue already stocks these — provisioning guide for ~600 cocktails, venue to confirm</div>
+        <div style="margin-left: auto; font-size: 13px; color: #6E6459;">The venue already stocks these — provisioning guide for ~{{ target }} cocktails, venue to confirm</div>
       </div>
       <div class="grid6" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px; background: #DED6C8; border: 1px solid #DED6C8;">
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">~200</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Limes · juice &amp; garnish</div></div>
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">~50</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Lemons</div></div>
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">12–14 L</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Grapefruit juice</div></div>
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">~2 L</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Pineapple juice</div></div>
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">4–5 L</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Simple syrup</div></div>
-        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">1–2 L</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Demerara syrup</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ limesQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Limes · juice &amp; garnish</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ lemonsQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Lemons</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ grapefruitQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Grapefruit juice</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ pineappleQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Pineapple juice</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ simpleQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Simple syrup</div></div>
+        <div style="background: #F6F2EA; padding: 14px 16px;"><div style="font-family: 'Bodoni Moda', serif; font-size: 24px; line-height: 1;">{{ demeraraQty }}</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #6E6459; margin-top: 8px;">Demerara syrup</div></div>
       </div>
     </div>
 
@@ -441,7 +441,7 @@
       <div style="margin-left: auto; font-size: 13px; color: #6E6459;">Pick the drinks, set the servings — the bottles and value update as you go</div>
     </div>
 
-    <div class="stats4" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #DED6C8; border: 1px solid #DED6C8; margin-bottom: 30px;">
+    <div class="stats4" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: #DED6C8; border: 1px solid #DED6C8; margin-bottom: 30px;">
       <div style="background: #F6F2EA; padding: 18px 22px;">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459;">Total guests</div>
         <div style="display: flex; align-items: center; gap: 12px; margin-top: 10px;">
@@ -464,6 +464,14 @@
           <div onClick="{{ perGuestDown }}" style="width: 30px; height: 30px; border: 1px solid #C6BCAC; display: flex; align-items: center; justify-content: center; cursor: pointer; user-select: none; font-size: 18px;">−</div>
           <div style="font-family: 'Bodoni Moda', serif; font-size: 34px; line-height: 1; min-width: 62px; text-align: center;">{{ perGuest }}</div>
           <div onClick="{{ perGuestUp }}" style="width: 30px; height: 30px; border: 1px solid #C6BCAC; display: flex; align-items: center; justify-content: center; cursor: pointer; user-select: none; font-size: 18px;">+</div>
+        </div>
+      </div>
+      <div style="background: #F6F2EA; padding: 18px 22px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6459;">Bar tab</div>
+        <div style="display: flex; align-items: center; gap: 10px; margin-top: 10px;">
+          <div onClick="{{ tabDown }}" style="width: 30px; height: 30px; border: 1px solid #C6BCAC; display: flex; align-items: center; justify-content: center; cursor: pointer; user-select: none; font-size: 18px;">−</div>
+          <div style="font-family: 'Bodoni Moda', serif; font-size: 26px; line-height: 1; min-width: 74px; text-align: center;">{{ barTabMoney }}</div>
+          <div onClick="{{ tabUp }}" style="width: 30px; height: 30px; border: 1px solid #C6BCAC; display: flex; align-items: center; justify-content: center; cursor: pointer; user-select: none; font-size: 18px;">+</div>
         </div>
       </div>
       <div style="background: #14110F; padding: 18px 22px; color: #F6F2EA;">
@@ -522,7 +530,7 @@
         <div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #2A2521; font-size: 15px;"><span style="color: #B8AFA2;">Bottle value</span><span>{{ bottleValue }}</span></div>
         <div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #2A2521; font-size: 15px;"><span style="color: #B8AFA2;">Mixers &amp; ingredients</span><span>{{ mixerValue }}</span></div>
         <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 16px 0 0;"><span style="font-family: 'Bodoni Moda', serif; font-size: 21px;">Retail-equivalent</span><span style="font-family: 'Bodoni Moda', serif; font-size: 30px; color: #E8A090;">{{ totalValue }}</span></div>
-        <div style="display: flex; justify-content: space-between; padding: 14px 0 0; margin-top: 14px; border-top: 1px solid #2A2521; font-size: 14px; color: #B8AFA2;"><span>Existing bar tab</span><span>~$10,000</span></div>
+        <div style="display: flex; justify-content: space-between; padding: 14px 0 0; margin-top: 14px; border-top: 1px solid #2A2521; font-size: 14px; color: #B8AFA2;"><span>Existing bar tab</span><span>{{ barTabText }}</span></div>
       </div>
     </div>
 
@@ -540,18 +548,18 @@
       <div style="font-family: 'Bodoni Moda', serif; font-size: 30px;">Budget and net effect</div>
     </div>
     <div class="cols2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 30px;">
-      <div style="font-size: 15px; color: #6E6459;">The complete venue bar tab is expected to be approximately <strong style="color: #14110F; font-weight: 500;">$10,000</strong>, including product cost, venue markup and service structure. Across 250 guests, that is approximately <strong style="color: #14110F; font-weight: 500;">$40 per guest</strong>.</div>
+      <div style="font-size: 15px; color: #6E6459;">The complete venue bar tab is expected to be approximately <strong style="color: #14110F; font-weight: 500;">{{ barTabMoney }}</strong>, including product cost, venue markup and service structure. Across {{ guests }} guests, that is approximately <strong style="color: #14110F; font-weight: 500;">{{ perGuestMoney }} per guest</strong>.</div>
       <div style="font-family: 'Bodoni Moda', serif; font-size: 22px; line-height: 1.4;">The relevant question is not the gross retail price of the proposed bottles. It is the net cost of substituting them for bottles already included in the premium package.</div>
     </div>
     <div style="border: 1px solid #DED6C8; background: #EFE9DD; padding: 22px 26px; margin-bottom: 24px; font-size: 15px; color: #6E6459;">The specialty-inventory value for the chosen scenario is calculated live in <strong style="color: #14110F; font-weight: 500;">section 08</strong> — change the servings there and the bottle count and retail-equivalent figure below the selector update with it.</div>
     <div class="cols2" style="display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; margin-top: 24px;">
       <div style="border-left: 3px solid #C2321E; padding: 6px 0 6px 24px;">
         <div style="font-size: 17px;">The retail-equivalent value of the specialty cocktail inventory is <strong style="font-weight: 500;">not</strong> necessarily an additional charge on top of the existing bar package.</div>
-        <div style="font-size: 15px; color: #6E6459; margin-top: 12px;">Several products — Bulleit, Jameson and other core spirits — are already included in the premium package, and the proposed bottles replace Captain Morgan, Cuervo Gold, Crown Royal Apple, Malibu, Kahlúa and Amaretto. The venue should calculate the <strong style="color: #14110F; font-weight: 500;">net substitution and volume cost</strong>, not add the full retail-equivalent total to the existing ~$10,000 bar bill.</div>
+        <div style="font-size: 15px; color: #6E6459; margin-top: 12px;">Several products — Bulleit, Jameson and other core spirits — are already included in the premium package, and the proposed bottles replace Captain Morgan, Cuervo Gold, Crown Royal Apple, Malibu, Kahlúa and Amaretto. The venue should calculate the <strong style="color: #14110F; font-weight: 500;">net substitution and volume cost</strong>, not add the full retail-equivalent total to the existing ~{{ barTabMoney }} bar bill.</div>
       </div>
       <div style="border: 1px solid #DED6C8; padding: 22px 24px; background: #EFE9DD;">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6459; margin-bottom: 12px;">What this estimate covers</div>
-        <div style="font-size: 14px; color: #6E6459;">Approximately 600 cocktails only. Beer, wine, sparkling wine and standard mixed drinks made from the venue's existing vodka, gin and tequila are not included.</div>
+        <div style="font-size: 14px; color: #6E6459;">Approximately {{ target }} cocktails only. Beer, wine, sparkling wine and standard mixed drinks made from the venue's existing vodka, gin and tequila are not included.</div>
         <div style="font-size: 14px; color: #6E6459; margin-top: 10px;">The exact bottle mix may shift with guest preference — the venue should be allowed to open reserve bottles progressively rather than the entire allocation at the start of service.</div>
       </div>
     </div>
@@ -692,7 +700,7 @@ class Component extends DCLogic {
     ];
     const drinks = {};
     this.MENU.forEach(d => { drinks[d.id] = { on: ['manhattan', 'paloma', 'zeroparty', 'irish'].indexOf(d.id) >= 0, servings: d.start }; });
-    this.state = { guests: 250, drinkers: 200, perGuest: 3, drinks: drinks };
+    this.state = { guests: 250, drinkers: 200, perGuest: 3, barTab: 10000, drinks: drinks };
   }
   money(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
   bump(key, delta, min, max) {
@@ -758,7 +766,22 @@ class Component extends DCLogic {
     const totalBottles = inventory.reduce((a, r) => a + r._b, 0);
     const bottleValue = inventory.reduce((a, r) => a + r._v, 0);
     const mixerValue = Math.round(totalServings * 1.1);
+    const f = (st.drinkers * st.perGuest) / 600;
+    const rng = (a, b) => { const lo = Math.max(1, Math.round(a * f)); const hi = Math.max(lo + 1, Math.round(b * f)); return lo + '\u2013' + hi + ' L'; };
+    const perGuestMoney = '$' + Math.round(st.barTab / Math.max(1, st.guests));
     return {
+      barTabMoney: this.money(st.barTab),
+      barTabText: '~' + this.money(st.barTab),
+      perGuestMoney: perGuestMoney,
+      perGuestCost: '~' + perGuestMoney,
+      tabUp: () => this.bump('barTab', 500, 2000, 30000),
+      tabDown: () => this.bump('barTab', -500, 2000, 30000),
+      limesQty: '~' + Math.max(10, Math.round(200 * f / 10) * 10),
+      lemonsQty: '~' + Math.max(5, Math.round(50 * f / 5) * 5),
+      grapefruitQty: rng(12, 14),
+      pineappleQty: '~' + Math.max(1, Math.round(2 * f)) + ' L',
+      simpleQty: rng(4, 5),
+      demeraraQty: rng(1, 2),
       guests: String(st.guests),
       drinkers: String(st.drinkers),
       perGuest: String(st.perGuest),
@@ -779,7 +802,7 @@ class Component extends DCLogic {
       bottleValue: this.money(bottleValue),
       mixerValue: this.money(mixerValue),
       totalValue: this.money(bottleValue + mixerValue),
-      shareText: 'We are planning approximately ' + totalServings + ' cocktails across ' + selectedCount + ' selected drinks. Based on the current selection, the estimated specialty inventory is approximately ' + totalBottles + ' bottles with a retail-equivalent value of approximately ' + this.money(bottleValue + mixerValue) + '. Please provide the net cost of incorporating this into the existing approximately $10,000 bar package.',
+      shareText: 'We are planning approximately ' + totalServings + ' cocktails across ' + selectedCount + ' selected drinks. Based on the current selection, the estimated specialty inventory is approximately ' + totalBottles + ' bottles with a retail-equivalent value of approximately ' + this.money(bottleValue + mixerValue) + '. Please provide the net cost of incorporating this into the existing approximately ' + this.money(st.barTab) + ' bar package.',
       pours: Array.from({ length: 15 }, (_, i) => i)
     };
   }
