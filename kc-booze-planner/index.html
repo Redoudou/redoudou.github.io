@@ -36,6 +36,8 @@
     .subrow { display: block !important; padding: 14px 0 !important; }
     .subrow > div:nth-child(1), .subrow > div:nth-child(3) { display: none !important; }
     .subrow > div:nth-child(5) { text-align: left !important; }
+    .reqrow { display: block !important; padding: 12px 0 !important; }
+    .reqrow > div:nth-child(2) { display: none !important; }
     .shelfscroll { overflow-x: auto; }
     .shelfscroll > .shelf10 { min-width: 620px; }
   }
@@ -536,43 +538,107 @@
   <div class="sec-box" style="margin: 56px 72px 0; border: 3px solid #14110F; padding: 44px 48px;">
     <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #C2321E; margin-bottom: 8px;">10 — Request to the venue</div>
     <div style="font-family: 'Bodoni Moda', serif; font-size: 34px; margin-bottom: 28px;">What we are asking for</div>
-    <div class="cols2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px;">
-      <div>
-        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6E6459; margin-bottom: 14px;">Please remove</div>
-        <div style="display: flex; flex-direction: column; gap: 7px; font-size: 17px; color: #6E6459;">
-          <div style="text-decoration: line-through;">Captain Morgan</div>
-          <div style="text-decoration: line-through;">Cuervo Gold</div>
-          <div style="text-decoration: line-through;">Crown Royal Apple</div>
-          <div style="text-decoration: line-through;">Malibu</div>
-          <div style="text-decoration: line-through;">Kahlúa</div>
-          <div style="text-decoration: line-through;">Amaretto</div>
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #C2321E; margin-bottom: 4px;">Proposed substitutions</div>
+    <div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Captain Morgan</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Appleton Estate Signature Blend or Hamilton Jamaican Pot Still Black Rum <span style="font-size: 13px; color: #C2321E; font-weight: 400;">— these two only, not Blackstrap</span></div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Cuervo Gold</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Banhez Mezcal or comparable mixing mezcal</div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Crown Royal Apple</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Cocchi Vermouth di Torino</div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Amaretto</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Campari</div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Malibu</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Monkey Shoulder or comparable Scotch</div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084; text-decoration: line-through;">Kahlúa</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">→</div>
+        <div style="font-size: 16px; font-weight: 500;">Amaro Montenegro</div>
+      </div>
+      <div class="reqrow" style="display: grid; grid-template-columns: 190px 34px 1fr; gap: 18px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid #DED6C8;">
+        <div style="font-size: 16px; color: #9A9084;">Add</div>
+        <div style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #C2321E; text-align: center;">+</div>
+        <div style="font-size: 16px; font-weight: 500;">Angostura bitters</div>
+      </div>
+    </div>
+    <div style="margin-top: 34px; padding-top: 26px; border-top: 1px solid #DED6C8;">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #C2321E; margin-bottom: 16px;">The full list — before and after</div>
+      <div class="cols2" style="display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px;">
+        <div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #9A9084; margin-bottom: 10px;">Original package</div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Vodka</div><div>Grey Goose · Tito's</div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Gin</div><div>Tanqueray · Hendrick's</div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Rum</div><div><span style="text-decoration: line-through; color: #9A9084;">Captain Morgan</span> · Bacardi · <span style="text-decoration: line-through; color: #9A9084;">Malibu</span></div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Bourbon</div><div>Bulleit</div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Tequila</div><div>Patrón Silver · <span style="text-decoration: line-through; color: #9A9084;">Cuervo Gold</span></div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Whiskey / Scotch</div><div>Crown Royal · <span style="text-decoration: line-through; color: #9A9084;">Crown Royal Apple</span> · Jameson · Jack Daniel's</div></div>
+          <div style="display: grid; grid-template-columns: 104px 1fr; gap: 14px; padding: 7px 0; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Cordials</div><div>Bailey's · <span style="text-decoration: line-through; color: #9A9084;">Kahlúa</span> · <span style="text-decoration: line-through; color: #9A9084;">Amaretto</span></div></div>
+        </div>
+        <div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #C2321E; margin-bottom: 10px;">Revised — substitutions and additions applied</div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Vodka</div><div>Grey Goose · Tito's</div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Gin</div><div>Tanqueray · Hendrick's</div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Rum</div><div>Bacardi · <span style="color: #C2321E; font-weight: 500;">Appleton Estate Signature Blend or Hamilton Jamaican Pot Still Black</span></div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Bourbon</div><div>Bulleit</div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Tequila / Mezcal</div><div>Patrón Silver · <span style="color: #C2321E; font-weight: 500;">Banhez or comparable mixing mezcal</span></div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Whiskey / Scotch</div><div>Crown Royal · Jameson · Jack Daniel's · <span style="color: #C2321E; font-weight: 500;">Monkey Shoulder or comparable Scotch</span></div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Cordials / Amari</div><div>Bailey's · <span style="color: #C2321E; font-weight: 500;">Campari</span> · <span style="color: #C2321E; font-weight: 500;">Amaro Montenegro</span></div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; border-bottom: 1px solid #EFE9DD; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Vermouth / Bitters</div><div><span style="color: #C2321E; font-weight: 500;">Cocchi Vermouth di Torino</span> · Dry vermouth · <span style="color: #C2321E; font-weight: 500;">Angostura bitters</span></div></div>
+          <div style="display: grid; grid-template-columns: 118px 1fr; gap: 14px; padding: 7px 0; font-size: 14px;"><div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #9A9084; padding-top: 3px;">Supporting</div><div>Fresh lime &amp; lemon · Grapefruit &amp; pineapple components · Simple &amp; demerara syrup · Club soda &amp; mixers · Garnishes</div></div>
         </div>
       </div>
+      <div style="font-size: 12px; color: #9A9084; margin-top: 10px;">Struck through = comes out · red = new to the package · everything else carries over unchanged</div>
+    </div>
+    <div class="cols2" style="display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px; margin-top: 34px; padding-top: 26px; border-top: 1px solid #DED6C8;">
       <div>
-        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #C2321E; margin-bottom: 14px;">Please replace with</div>
-        <div style="display: flex; flex-direction: column; gap: 7px; font-size: 17px; font-weight: 500;">
-          <div>Appleton Estate Signature</div>
-          <div>A mixing mezcal</div>
-          <div>Cocchi Vermouth di Torino</div>
-          <div>Campari</div>
-          <div>Monkey Shoulder or comparable Scotch</div>
-          <div>Angostura bitters</div>
-          <div>Ingredients for the signature cocktails and Irish coffee</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #6E6459; margin-bottom: 14px;">Selected cocktail program</div>
+        <sc-for list="{{ recap }}" as="r" hint-placeholder-count="4">
+          <div style="display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid #DED6C8; font-size: 15px;">
+            <span>{{ r.name }}</span>
+            <span style="font-family: 'IBM Plex Mono', monospace;">{{ r.servings }}</span>
+          </div>
+        </sc-for>
+        <div style="display: flex; justify-content: space-between; gap: 12px; padding-top: 12px; align-items: baseline;">
+          <span style="font-family: 'Bodoni Moda', serif; font-size: 20px;">Total cocktail servings</span>
+          <span style="font-family: 'Bodoni Moda', serif; font-size: 26px;">{{ totalServings }}</span>
+        </div>
+        <div style="font-size: 13px; color: #6E6459; margin-top: 6px;">{{ programMix }} · adjust the selection in section 08 and this recap updates with it</div>
+      </div>
+      <div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #C2321E; margin-bottom: 14px;">Bar setup confirmation</div>
+        <div style="font-size: 14px; color: #6E6459; margin-bottom: 14px;">Please confirm the existing package includes everything required to execute the selected drinks:</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 7px; font-size: 14px;">
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Appropriate glassware</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Sufficient cocktail-quality ice</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Cocktail tools and equipment</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Capable bartenders</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Fresh lime and lemon</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Pineapple and grapefruit components</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Simple syrup</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Club soda and required mixers</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Garnishes</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Refrigerated storage</span>
+          <span style="border: 1px solid #C6BCAC; padding: 6px 11px;">Zero-proof ingredients</span>
         </div>
       </div>
     </div>
     <div style="margin-top: 34px; padding-top: 26px; border-top: 1px solid #DED6C8;">
-      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #6E6459; margin-bottom: 14px;">Itemised as</div>
-      <div class="grid4" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Credit for removed products</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Cost of replacement products</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Fresh citrus and mixers</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Batching charges</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Irish coffee service</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Confirmation the bar team can execute this menu</div>
-        <div style="border: 1px solid #DED6C8; padding: 12px 14px; font-size: 15px;">Second-bar charges</div>
-        <div style="border: 2px solid #14110F; padding: 12px 14px; font-size: 15px; font-weight: 500;">Final revised total</div>
-      </div>
+      <div style="font-family: 'Bodoni Moda', serif; font-size: 26px; line-height: 1.45; max-width: 980px;">Can the venue accommodate the proposed substitutions and additions within the existing bar package, provide the complete bar setup and ingredients required, and reliably serve the selected cocktails at the planned volumes?</div>
       <div style="font-size: 14px; color: #6E6459; margin-top: 16px;">This request covers the cocktail program only — beer, wine and sparkling service continue under the existing package unchanged.</div>
     </div>
   </div>
@@ -629,12 +695,13 @@ class Component extends DCLogic {
   renderVals() {
     const st = this.state;
     const totals = {};
+    const recap = [];
     let totalServings = 0, selectedCount = 0;
     const menu = this.MENU.map(d => {
       const row = st.drinks[d.id];
       const on = row.on;
       const servings = on ? row.servings : 0;
-      if (on) { selectedCount++; totalServings += servings; }
+      if (on) { selectedCount++; totalServings += servings; recap.push({ name: d.name, servings: String(servings), zero: Object.keys(d.build).length === 0 }); }
       const parts = [];
       let value = 0;
       Object.keys(d.build).forEach(p => {
@@ -682,6 +749,8 @@ class Component extends DCLogic {
       perGuestDown: () => this.bump('perGuest', -1, 1, 8),
       menu: menu,
       inventory: inventory,
+      recap: recap,
+      programMix: (recap.length - recap.filter(r => r.zero).length) + ' alcoholic · ' + recap.filter(r => r.zero).length + ' zero-proof',
       selectedCount: String(selectedCount),
       totalServings: String(totalServings),
       totalBottles: String(totalBottles),
