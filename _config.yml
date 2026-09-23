@@ -22,13 +22,15 @@ author: you know
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  # Resources:
-  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Articles: "https://helloredwan.me"
+  Ethereum & Institutions: "/#ethereum-institutions"
+  AI & Operations: "/#ai-operations"
+  Research: "/#research"
+  Projects: "/projects/"
+  Speaking & Media: "/aboutme#speaking-engagements"
+  Background: "/aboutme"
+  Contact: "https://www.linkedin.com/in/redwanmeslem/"
 
-################
+
 # --- Logo --- #
 ################
 
@@ -149,6 +151,7 @@ footer-hover-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
+  - "/assets/css/projects.css"
 #  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
