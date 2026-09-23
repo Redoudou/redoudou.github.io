@@ -1,0 +1,100 @@
+- name: Agentic Operations
+  description: Small AI agents connect research, drafting and follow-up into repeatable operational workflows.
+  category: AI & Operations
+  tags: [Agents, Automation, Operations]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: workflow
+- name: Policy Scanner
+  description: Tracks policy and regulatory signals relevant to Ethereum and digital asset markets.
+  category: Intelligence & Scanners
+  tags: [Policy, Research, Monitoring]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: policy
+- name: Member & Business Intelligence Scanner
+  description: Surfaces company updates, ecosystem activity and public signals for a clearer view of the market.
+  category: Intelligence & Scanners
+  tags: [Intelligence, Data, Ecosystem]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: signals
+- name: Image & Media Scanner
+  description: Organizes visual material and extracts useful context from image and media collections.
+  category: Intelligence & Scanners
+  tags: [Computer vision, Media, Automation]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: image
+- name: Ethereum for Digital Assets
+  description: Examines how Ethereum infrastructure can support tokenized assets and institutional markets.
+  category: Ethereum & Institutions
+  tags: [Ethereum, Digital assets, Markets]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: assets
+- name: Institutional Ethereum Intelligence
+  description: Maps the organizations, activity and infrastructure shaping institutional Ethereum adoption.
+  category: Ethereum & Institutions
+  tags: [Ethereum, Institutions, Intelligence]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: false
+  visual: network
+- name: Tokenization Research
+  description: Connects tokenization models with the legal, technical and market choices behind them.
+  category: Research
+  tags: [Tokenization, Research, Markets]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: false
+  visual: research
+- name: Digital Identity & KYC
+  description: Explores reusable identity and verification patterns for regulated digital asset services.
+  category: Research
+  tags: [Identity, KYC, Privacy]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: identity
+- name: Standards Mapping
+  description: Connects Ethereum and interoperability standards to practical institutional use cases.
+  category: Ethereum & Institutions
+  tags: [Standards, Interoperability, Ethereum]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: false
+  visual: standards
+- name: Agentic Payments Bridge
+  description: Studies agent-led payment flows across Ethereum, Google services and open standards.
+  category: AI & Operations
+  tags: [Agents, Payments, Interoperability]
+  status: Illustrative concept
+  thumbnail: ""
+  demo: ""
+  github: ""
+  featured: true
+  visual: payments
