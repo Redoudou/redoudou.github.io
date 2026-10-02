@@ -1,16 +1,59 @@
-name: Beautiful Jekyll CI
-on: [push, pull_request]
+name: Publish personal website
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
-    name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Build the site in the jekyll/builder container
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Render the existing blog and reference archive
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Preserve standalone pages and the production domain
         run: |
-          export JEKYLL_VERSION=4.2.2
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          -e PAGES_REPO_NWO=${{ github.repository }} \
-          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          cp index.html speaking-media.html projects.html CNAME _site/
+          touch _site/.nojekyll
+          for page in index.html speaking-media.html projects.html; do
+            cmp "$page" "_site/$page"
+          done
+          test "$(cat _site/CNAME)" = "helloredwan.me"
+          test -f _site/aboutme/index.html
+      - name: Upload production artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
