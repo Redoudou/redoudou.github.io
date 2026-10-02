@@ -31,9 +31,9 @@ jobs:
       - name: Preserve standalone pages and the production domain
         run: |
           sudo chown -R "$(id -u):$(id -g)" _site
-          cp index.html speaking-media.html projects.html CNAME _site/
+          cp index.html speaking-media.html projects.html ai-operations.html CNAME _site/
           touch _site/.nojekyll
-          for page in index.html speaking-media.html projects.html; do
+          for page in index.html speaking-media.html projects.html ai-operations.html; do
             cmp "$page" "_site/$page"
           done
           test "$(cat _site/CNAME)" = "helloredwan.me"
