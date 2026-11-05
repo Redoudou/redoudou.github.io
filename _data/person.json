@@ -1,0 +1,28 @@
+{
+  "@type": "Person",
+  "@id": "https://helloredwan.me/#redwan-meslem",
+  "name": "Redwan Meslem",
+  "url": "https://helloredwan.me/",
+  "jobTitle": "Executive Director",
+  "description": "Executive Director of the Enterprise Ethereum Alliance, working on institutional blockchain adoption, Ethereum, tokenization and open standards.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Enterprise Ethereum Alliance",
+    "url": "https://entethalliance.org/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/redwanmeslem/",
+    "https://github.com/Redoudou",
+    "https://entethalliance.org/Board%20Member/redwan-meslem/"
+  ],
+  "knowsAbout": [
+    "Institutional blockchain adoption",
+    "Ethereum",
+    "Decentralized systems",
+    "Tokenization of financial assets",
+    "Digital asset strategy",
+    "Blockchain interoperability and open standards",
+    "Digital identity and attestations"
+  ],
+  "image": "https://helloredwan.me/assets/img/redwan-meslem.webp"
+}

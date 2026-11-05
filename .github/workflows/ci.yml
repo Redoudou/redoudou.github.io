@@ -23,6 +23,8 @@ jobs:
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
+      - name: Generate crawler metadata and text versions
+        run: python3 scripts/build_discovery.py
       - name: Render the existing blog and reference archive
         uses: actions/jekyll-build-pages@v1
         with:
@@ -32,6 +34,7 @@ jobs:
         run: |
           sudo chown -R "$(id -u):$(id -g)" _site
           cp index.html speaking-media.html projects.html ai-operations.html CNAME _site/
+          cp robots.txt llms.txt sitemap-main.xml profile.md *.html.md _site/
           touch _site/.nojekyll
           for page in index.html speaking-media.html projects.html ai-operations.html; do
             cmp "$page" "_site/$page"

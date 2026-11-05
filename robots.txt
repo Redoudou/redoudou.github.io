@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://helloredwan.me/sitemap-main.xml
+Sitemap: https://helloredwan.me/sitemap.xml

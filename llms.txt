@@ -1,0 +1,20 @@
+# Redwan Meslem
+
+> Executive Director of the Enterprise Ethereum Alliance, working on institutional blockchain adoption, Ethereum, tokenization and open standards.
+
+Redwan connects global institutions with Ethereum teams and decentralized infrastructure. His work covers digital asset strategy, institutional use of blockchain, financial asset tokenization, interoperability, identity and attestations, and agent-payment research. Before EEA, he led developer tooling and infrastructure programs at ChainSafe Systems, including web3.js.
+
+This personal website contains his professional profile, project index, speaking archive and writing. Project descriptions distinguish experiments and research from established standards or production deployments. Public references supporting the biography are linked in the profile.
+
+## Profile and work
+
+- [Professional profile](https://helloredwan.me/profile.md): Biography, background and public references.
+- [Homepage](https://helloredwan.me/index.html.md): Current role and professional focus.
+- [Projects](https://helloredwan.me/projects.html.md): Ethereum Intelligence, Policy Tracker, Shibui, Rialto, protocol tools and earlier ChainSafe work.
+- [Speaking and media](https://helloredwan.me/speaking-media.html.md): Dated appearances, topics, recordings and event links.
+- [Running an organization with agents](https://helloredwan.me/ai-operations.html.md): Connecting information and workflows with human ownership and review.
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/in/redwanmeslem/): Professional profile.
+- [GitHub](https://github.com/Redoudou): Public code and projects.
