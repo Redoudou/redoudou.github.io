@@ -35,6 +35,9 @@ jobs:
           sudo chown -R "$(id -u):$(id -g)" _site
           cp index.html speaking-media.html projects.html ai-operations.html CNAME _site/
           cp robots.txt llms.txt sitemap-main.xml profile.md *.html.md _site/
+          for file in robots.txt llms.txt sitemap-main.xml profile.md *.html.md; do
+            cmp "$file" "_site/$file"
+          done
           touch _site/.nojekyll
           for page in index.html speaking-media.html projects.html ai-operations.html; do
             cmp "$page" "_site/$page"

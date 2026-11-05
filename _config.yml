@@ -283,6 +283,11 @@ exclude:
   - screenshot.png
   - docs/
   - scripts/
+  - profile.md
+  - index.html.md
+  - projects.html.md
+  - ai-operations.html.md
+  - speaking-media.html.md
 
 plugins:
   - jekyll-paginate
