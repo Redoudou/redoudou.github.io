@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Agentic workflows for running EEA across membership, communications, events and working groups."><title>AI &amp; Operations | Redwan Meslem</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="How to run an organization with agents: connect information, coordinate workflows and keep people responsible for decisions."><title>AI &amp; Operations | Redwan Meslem</title><style>
 :root{--paper:#f5f5f3;--ink:#171918;--muted:#6c706d;--line:#dedfdb;--green:#315b45;--blue:#dfe8f4;--max:1320px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}a:hover{color:var(--green)}.wrap{width:min(var(--max),calc(100% - 96px));margin:auto}
 header{position:sticky;top:0;z-index:5;background:rgba(245,245,243,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}.nav{height:76px;display:flex;justify-content:space-between;align-items:center}.brand{font-size:17px;font-weight:650;letter-spacing:-.025em}.navlinks{display:flex;align-items:center;gap:34px;font-size:15px;color:#565a57}.navlinks a:last-child{color:var(--green)}
@@ -106,7 +106,53 @@ a:focus-visible{outline-color:var(--green)}
 
 
 .section-head:has(> h2:only-child){display:block}
-</style></head><body><a class="skip-link" href="#main-content">Skip to content</a><header><div class="wrap nav"><a class="brand" href="index.html">Redwan Meslem</a><button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">Menu</button><nav id="main-navigation" class="navlinks" aria-label="Main navigation"><a href="index.html">Home</a><a href="projects.html#ethereum-initiatives">Ethereum &amp; Institutions</a><a href="ai-operations.html" aria-current="page">AI &amp; Operations</a><a href="speaking-media.html">Speaking &amp; Media</a><a href="projects.html">Projects</a></nav></div></header><main class="wrap" id="main-content"><section class="operations-intro"><div class="overline">AI &amp; Operations</div><h1>From information<br> to coordinated work.</h1><p>I build systems that connect research, relationships and daily operations, turning scattered information into useful work.</p></section><section class="section" id="use-cases"><div class="section-head"><h2 class="section-title">What the work enables</h2></div><div class="usecase-grid"><article class="usecase"><div class="usecase-label">Proposed workflow</div><h3>Event follow-up</h3><div class="usecase-input"><span class="step-label">Start with</span><p>A panel photo, agenda or participant list.</p></div><div class="outcome-arrow" aria-hidden="true">↓</div><div class="usecase-output"><span class="step-label">Prepared outcome</span><p>Participant matches, professional profiles, proposed contact updates and outreach drafts.</p></div></article><article class="usecase"><div class="usecase-label">Website operations</div><h3>Website updates</h3><div class="usecase-input"><span class="step-label">Start with</span><p>A spoken or written request to change a page.</p></div><div class="outcome-arrow" aria-hidden="true">↓</div><div class="usecase-output"><span class="step-label">Prepared outcome</span><p>Revised copy, layout changes and a preview ready to review.</p></div></article><article class="usecase"><div class="usecase-label">Research &amp; publishing</div><h3>Policy intelligence</h3><div class="usecase-input"><span class="step-label">Start with</span><p>New publications from official sources.</p></div><div class="outcome-arrow" aria-hidden="true">↓</div><div class="usecase-output"><span class="step-label">Prepared outcome</span><p>Relevant developments, source-backed briefings and publishing drafts.</p></div></article><article class="usecase"><div class="usecase-label">Institutional memory</div><h3>Meeting follow-up</h3><div class="usecase-input"><span class="step-label">Start with</span><p>A question about past discussions or outstanding work.</p></div><div class="outcome-arrow" aria-hidden="true">↓</div><div class="usecase-output"><span class="step-label">Prepared outcome</span><p>Relevant decisions, supporting context and follow-up actions.</p></div></article></div><p class="concept-note">The panel-photo example is a proposed workflow. Participant identities need confirmation; publication, outreach and record changes require review.</p></section><section class="section" id="connected-systems"><div class="section-head"><h2 class="section-title">Connecting the organization</h2></div><div class="systems-map" role="group" aria-label="Illustrative capability map: relationships, communications, knowledge and publishing connected through agents, data pipelines and human review"><div class="systems-side"><div><h3>Relationships &amp; events</h3><p>Contacts · Membership · Participation</p></div><div><h3>Communication &amp; collaboration</h3><p>Email · Meetings · Team coordination</p></div></div><div class="operating-layer"><span class="step-label">Designed &amp; built by Redwan</span><h3>Operating layer</h3><ul><li>Agents &amp; workflow orchestration</li><li>Data reconciliation</li><li>Knowledge retrieval</li><li>Human review</li></ul></div><div class="systems-side"><div><h3>Knowledge &amp; reporting</h3><p>Documents · Research · Analysis</p></div><div><h3>Publishing &amp; development</h3><p>Content · Websites · Code</p></div></div></div><p class="map-note">A high-level view of the capabilities, with implementation details kept private.</p></section></main>
+
+/* Article layout; inherit the existing site font and color tokens. */
+.article-wrap{max-width:780px;padding:48px 0 64px}
+.operations-article .article-header{position:static;background:transparent;border:0;backdrop-filter:none;padding:0 0 28px;margin:0 0 32px;border-bottom:1px solid var(--line)}
+.article-header .overline{margin:0 0 22px}
+.article-header h1{font-size:clamp(38px,5vw,60px);font-weight:560;letter-spacing:-.05em;line-height:1.08;text-wrap:balance;margin:0 0 22px}
+.article-deck{font-size:23px;line-height:1.5;color:var(--muted);margin:0 0 22px;text-wrap:pretty}
+.article-byline{font-size:16px;color:var(--muted);margin:0}
+.article-body{font-size:20px;line-height:1.75}
+.article-body p{margin:0 0 22px;text-wrap:pretty}
+.article-body h2{font-size:28px;line-height:1.25;letter-spacing:-.03em;font-weight:600;margin:42px 0 18px;text-wrap:balance}
+@media(max-width:650px){.article-wrap{padding:32px 0 44px}.article-header h1{font-size:40px}.article-deck{font-size:21px}.article-body{font-size:19px;line-height:1.7}.article-body h2{font-size:26px;margin-top:34px}}
+
+</style></head><body><a class="skip-link" href="#main-content">Skip to content</a><header><div class="wrap nav"><a class="brand" href="index.html">Redwan Meslem</a><button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">Menu</button><nav id="main-navigation" class="navlinks" aria-label="Main navigation"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="ai-operations.html" aria-current="page">AI &amp; Operations</a><a href="speaking-media.html">Speaking &amp; Media</a></nav></div></header><main class="wrap article-wrap" id="main-content">
+  <article class="operations-article" aria-labelledby="article-title">
+    <header class="article-header">
+      <p class="overline">AI &amp; Operations</p>
+      <h1 id="article-title">Running an organization with agents</h1>
+      <p class="article-deck">How to connect information, coordinate work and keep people responsible for decisions.</p>
+      <p class="article-byline">By Redwan Meslem</p>
+    </header>
+    <div class="article-body">
+      <p>Running an organization means keeping many threads moving at once: relationships, meetings, communications, projects and follow-up. At the Enterprise Ethereum Alliance, my work spans membership, events, research and working groups. Much of the coordination depends on carrying context from one activity into the next.</p>
+      <p>A conversation can lead to a research question, an introduction or a new project. The operational challenge is to capture that connection, decide what matters and make sure someone follows through. That is where agents can be useful.</p>
+
+      <h2>Start with the work</h2>
+      <p>Before introducing an agent, define the recurring process. What starts it? What information does it need? What should be ready at the end? Who owns the next step?</p>
+      <p>For a membership renewal, the useful outcome might be a short account brief and a draft message for the relationship owner. For an event, it might be a confirmed participant list and a follow-up plan. A clear outcome gives the workflow a boundary and makes its usefulness easier to judge.</p>
+
+      <h2>Give the organization a shared memory</h2>
+      <p>Relevant context is usually spread across email, meeting notes, contact records and documents. Bringing it together starts with agreeing which record to trust, how to identify the same person or organization across systems, and where decisions should be recorded.</p>
+      <p>An agent needs to distinguish a confirmed decision from a suggestion, and a current record from an outdated one. Keeping sources attached to a brief lets the person reviewing it check the reasoning and correct mistakes.</p>
+
+      <h2>Connect activities into workflows</h2>
+      <p>Consider the work around a member meeting. Beforehand, an agent could prepare the history of the relationship and open questions. Afterwards, it could extract proposed actions from the notes, prepare record updates and draft a follow-up. A person checks the interpretation and decides what to send.</p>
+      <p>The same pattern applies to research: collect relevant publications, compare them with existing work, prepare a briefing and bring it to an editor. Each step should leave a useful record for the next one.</p>
+
+      <h2>Keep ownership clear</h2>
+      <p>Agents can gather, compare and prepare. People remain responsible for priorities, relationships and commitments. Every workflow needs a named owner, a clear review point and a way to handle uncertainty.</p>
+      <p>A draft should remain visibly a draft until reviewed. If a source is missing or two records disagree, the workflow should surface that question. Access should also fit the task: preparing a briefing does not require permission to send messages or change financial records.</p>
+
+      <h2>Review the operation, not just the output</h2>
+      <p>A useful operating rhythm includes checking what finished, what failed and what still needs a decision. Track whether follow-ups happen, records stay current and people spend less time reconstructing context. The number of agents or generated documents says little about whether the organization is working better.</p>
+      <p>Start with one recurring process, review its results and fix the weak handoffs before expanding. The aim is an organization that remembers what it agreed, knows who owns the next step and reliably moves work forward.</p>
+    </div>
+  </article>
+</main>
 <script>
 (()=>{const header=document.querySelector('header');const toggle=header.querySelector('.nav-toggle');const nav=header.querySelector('.navlinks');
 header.classList.add('nav-ready');
