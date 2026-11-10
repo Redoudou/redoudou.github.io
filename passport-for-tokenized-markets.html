@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A passport for tokenized markets | Redwan Meslem</title>
+<link rel="stylesheet" href="stage-light.css">
+
+<!-- Discovery metadata -->
+<meta name="description" content="How shared eligibility credentials could help assets circulate across Ethereum networks.">
+<meta name="author" content="Redwan Meslem">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A passport for tokenized markets | Redwan Meslem">
+<meta name="twitter:description" content="How shared eligibility credentials could help assets circulate across Ethereum networks.">
+<meta name="twitter:image" content="https://helloredwan.me/assets/img/redwan-meslem.webp">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Redwan Meslem">
+<meta property="og:title" content="A passport for tokenized markets | Redwan Meslem">
+<meta property="og:description" content="How shared eligibility credentials could help assets circulate across Ethereum networks.">
+<meta property="og:url" content="https://helloredwan.me/passport-for-tokenized-markets.html">
+<meta property="og:image" content="https://helloredwan.me/assets/img/redwan-meslem.webp">
+<meta property="og:image:alt" content="Redwan Meslem speaking at an event">
+<link rel="canonical" href="https://helloredwan.me/passport-for-tokenized-markets.html">
+<link rel="describedby" href="https://helloredwan.me/llms.txt" type="text/plain">
+<link rel="alternate" type="text/markdown" href="https://helloredwan.me/passport-for-tokenized-markets.html.md" title="Plain-text page">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://helloredwan.me/#redwan-meslem",
+      "name": "Redwan Meslem",
+      "url": "https://helloredwan.me/",
+      "jobTitle": "Executive Director",
+      "description": "Executive Director of the Enterprise Ethereum Alliance, working on institutional blockchain adoption, Ethereum, tokenization and open standards.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Enterprise Ethereum Alliance",
+        "url": "https://entethalliance.org/"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/redwanmeslem/",
+        "https://github.com/Redoudou",
+        "https://entethalliance.org/Board%20Member/redwan-meslem/"
+      ],
+      "knowsAbout": [
+        "Institutional blockchain adoption",
+        "Ethereum",
+        "Decentralized systems",
+        "Tokenization of financial assets",
+        "Digital asset strategy",
+        "Blockchain interoperability and open standards",
+        "Digital identity and attestations"
+      ],
+      "image": "https://helloredwan.me/assets/img/redwan-meslem.webp"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://helloredwan.me/#website",
+      "name": "Redwan Meslem",
+      "url": "https://helloredwan.me/",
+      "publisher": {
+        "@id": "https://helloredwan.me/#redwan-meslem"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://helloredwan.me/passport-for-tokenized-markets.html#page",
+      "url": "https://helloredwan.me/passport-for-tokenized-markets.html",
+      "name": "A passport for tokenized markets | Redwan Meslem",
+      "description": "How shared eligibility credentials could help assets circulate across Ethereum networks.",
+      "isPartOf": {
+        "@id": "https://helloredwan.me/#website"
+      },
+      "inLanguage": "en",
+      "headline": "A passport for tokenized markets",
+      "author": {
+        "@id": "https://helloredwan.me/#redwan-meslem"
+      },
+      "about": [
+        "Tokenization",
+        "Investor eligibility",
+        "ERC-3643"
+      ]
+    }
+  ]
+}
+</script>
+<!-- /Discovery metadata -->
+</head>
+<body><div id="redwan-design-directions">
+<div id="passport-for-tokenized-markets" class="direction stage story identity">
+  <main class="story-inner">
+    <a class="story-back" href="index.html#stage-work"><span aria-hidden="true">←&nbsp;</span> Back to Selected work</a>
+    <header class="story-header">
+      <span class="research-topic">Identity &amp; tokenization</span>
+      <h1>A passport for tokenized markets</h1>
+      <p>How shared eligibility credentials could help assets circulate across Ethereum networks.</p>
+      <p class="story-byline">Redwan Meslem</p>
+    </header>
+    <article class="story-copy">
+<p>Consider a bank issuing a tokenized security that it wants to distribute through two venues on different Ethereum networks. The asset can be issued onchain, but each venue still needs to determine who is eligible to hold it. If the issuer, custodian, and transfer agent all use different formats for the same checks, adding a venue means building another integration and often asking investors for the same information again.</p>
+
+<h2>What passports got right</h2>
+<p>ICAO’s machine-readable passport standards gave border authorities a common way to read a document. Countries still issue their own passports and decide whom to admit. The same distinction matters for securities. An issuer can accept eligibility claims in a shared format while deciding which providers it trusts and which rules apply to its asset. A venue that checks residency and a venue that checks accreditation can interpret the same credential and reach different decisions.</p>
+
+<h2>What Shibui tests</h2>
+<p>Shibui is an open-source research prototype that connects ERC-3643 security tokens to credentials issued through the Ethereum Attestation Service. A token can check whether an approved provider issued a claim, whether its contents meet the token’s policy, and whether it has expired or been revoked. The issuer controls the policy and the set of trusted providers.</p>
+<p>Using the same schema on two networks lets the institutions reuse the format and the integration logic. Shibui’s prototype still issues attestations separately on each chain. An institution that wants an asset to circulate across networks must also decide how the asset’s supply and ownership stay consistent, how settlement instructions move, and how updates to eligibility are reflected on each network. A shared credential tackles one part of that larger problem.</p>
+
+<h2>What an institutional pilot should prove</h2>
+<p>Start with two venues, one instrument, and two policies. Have both venues read the same eligibility schema, then test a transfer that one venue accepts and the other rejects. Expire one credential and revoke another. Check that the next transfer is handled correctly on each network and that the transfer agent can explain the decision from its audit trail.</p>
+<p>If that works, measure which onboarding steps and integrations the venues can actually reuse. The outcome that matters is whether adding a venue gets easier while issuers keep control over who can hold and transfer the asset.</p>
+    </article>
+    <section class="story-sources" aria-label="Sources and related work">
+      <h2>Sources</h2>
+      <ul><li><a href="https://www.linkedin.com/pulse/passport-problem-why-tokenized-markets-need-shared-identity-meslem-iryvf">The Passport Problem on LinkedIn</a></li>
+<li><a href="https://hub.entethalliance.org/rnd-rwa-erc3643-eas/">Shibui prototype and specification</a></li>
+<li><a href="https://eips.ethereum.org/EIPS/eip-3643">ERC-3643 token standard</a></li></ul>
+      <h2>Related work</h2>
+<ul><li><a href="https://intelligence.entethalliance.org/eip-matrix.html">The EIP Matrix</a></li></ul>
+    </section>
+  </main>
+</div>
+</div></body>
+</html>

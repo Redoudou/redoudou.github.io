@@ -13,6 +13,8 @@ This personal website contains his professional profile, project index, speaking
 - [Projects](https://helloredwan.me/projects.html.md): Ethereum Intelligence, Policy Tracker, Shibui, Rialto, protocol tools and earlier ChainSafe work.
 - [Speaking and media](https://helloredwan.me/speaking-media.html.md): Dated appearances, topics, recordings and event links.
 - [Running an organization with agents](https://helloredwan.me/ai-operations.html.md): Connecting information and workflows with human ownership and review.
+- [A passport for tokenized markets](https://helloredwan.me/passport-for-tokenized-markets.html.md): Shared investor eligibility across Ethereum networks.
+- [How to choose a privacy solution on Ethereum](https://helloredwan.me/choosing-ethereum-privacy.html.md): Comparing privacy options for institutional transactions.
 
 ## Optional
 

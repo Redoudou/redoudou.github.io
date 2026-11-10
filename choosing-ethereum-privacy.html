@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to choose a privacy solution on Ethereum | Redwan Meslem</title>
+<link rel="stylesheet" href="stage-light.css">
+
+<!-- Discovery metadata -->
+<meta name="description" content="A practical way to compare privacy options around a real institutional transaction.">
+<meta name="author" content="Redwan Meslem">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to choose a privacy solution on Ethereum | Redwan Meslem">
+<meta name="twitter:description" content="A practical way to compare privacy options around a real institutional transaction.">
+<meta name="twitter:image" content="https://helloredwan.me/assets/img/redwan-meslem.webp">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Redwan Meslem">
+<meta property="og:title" content="How to choose a privacy solution on Ethereum | Redwan Meslem">
+<meta property="og:description" content="A practical way to compare privacy options around a real institutional transaction.">
+<meta property="og:url" content="https://helloredwan.me/choosing-ethereum-privacy.html">
+<meta property="og:image" content="https://helloredwan.me/assets/img/redwan-meslem.webp">
+<meta property="og:image:alt" content="Redwan Meslem speaking at an event">
+<link rel="canonical" href="https://helloredwan.me/choosing-ethereum-privacy.html">
+<link rel="describedby" href="https://helloredwan.me/llms.txt" type="text/plain">
+<link rel="alternate" type="text/markdown" href="https://helloredwan.me/choosing-ethereum-privacy.html.md" title="Plain-text page">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://helloredwan.me/#redwan-meslem",
+      "name": "Redwan Meslem",
+      "url": "https://helloredwan.me/",
+      "jobTitle": "Executive Director",
+      "description": "Executive Director of the Enterprise Ethereum Alliance, working on institutional blockchain adoption, Ethereum, tokenization and open standards.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Enterprise Ethereum Alliance",
+        "url": "https://entethalliance.org/"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/redwanmeslem/",
+        "https://github.com/Redoudou",
+        "https://entethalliance.org/Board%20Member/redwan-meslem/"
+      ],
+      "knowsAbout": [
+        "Institutional blockchain adoption",
+        "Ethereum",
+        "Decentralized systems",
+        "Tokenization of financial assets",
+        "Digital asset strategy",
+        "Blockchain interoperability and open standards",
+        "Digital identity and attestations"
+      ],
+      "image": "https://helloredwan.me/assets/img/redwan-meslem.webp"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://helloredwan.me/#website",
+      "name": "Redwan Meslem",
+      "url": "https://helloredwan.me/",
+      "publisher": {
+        "@id": "https://helloredwan.me/#redwan-meslem"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://helloredwan.me/choosing-ethereum-privacy.html#page",
+      "url": "https://helloredwan.me/choosing-ethereum-privacy.html",
+      "name": "How to choose a privacy solution on Ethereum | Redwan Meslem",
+      "description": "A practical way to compare privacy options around a real institutional transaction.",
+      "isPartOf": {
+        "@id": "https://helloredwan.me/#website"
+      },
+      "inLanguage": "en",
+      "headline": "How to choose a privacy solution on Ethereum",
+      "author": {
+        "@id": "https://helloredwan.me/#redwan-meslem"
+      },
+      "about": [
+        "Ethereum privacy",
+        "Market infrastructure",
+        "Institutional adoption"
+      ]
+    }
+  ]
+}
+</script>
+<!-- /Discovery metadata -->
+</head>
+<body><div id="redwan-design-directions">
+<div id="choosing-ethereum-privacy" class="direction stage story privacy">
+  <main class="story-inner">
+    <a class="story-back" href="index.html#stage-work"><span aria-hidden="true">←&nbsp;</span> Back to Selected work</a>
+    <header class="story-header">
+      <span class="research-topic">Privacy &amp; market infrastructure</span>
+      <h1>How to choose a privacy solution on Ethereum</h1>
+      <p>A practical way to compare privacy options around a real institutional transaction.</p>
+      <p class="story-byline">Redwan Meslem</p>
+    </header>
+    <article class="story-copy">
+<p>Take a transfer of a tokenized private credit note. The buyer and seller need to know the price and amount. A transfer agent may need proof the buyer is eligible. An authorized reviewer may need access to the underlying record later. Putting the whole trade on a public ledger exposes more than those parties need. Keeping it entirely inside one institution makes it harder for other participants to verify what happened.</p>
+
+<h2>Write down who can see what</h2>
+<p>Pick a transaction your team expects to run. List the fields, including identity, amount, price, timing, and position. For each field, specify who needs the original, who only needs proof of a condition, and who can grant or revoke access. Include the operator and vendors in that exercise. A system can hide data from the public and still expose it to the operator, or leak useful patterns through timing and repeated interactions.</p>
+
+<h2>Compare the trust models</h2>
+<p>The EEA Privacy Working Group report profiles several ways to deliver confidentiality. Its 2026 edition includes Nightfall for confidential token transfers, Paladin for privacy groups, and Silent Data for execution in trusted hardware. These are starting points for a shortlist. The report draws on documentation and deployment evidence, with different levels of maturity across the products it covers.</p>
+<ul>
+  <li><strong>Zero-knowledge proofs.</strong> A verifier can check a defined claim without seeing the inputs. Ask what the proof actually covers, where it is generated, and what remains visible onchain.</li>
+  <li><strong>Privacy groups.</strong> A defined set of parties can share private state. Ask which members hold a copy, what happens when a member leaves, and how the group interacts with outside systems.</li>
+  <li><strong>Trusted hardware.</strong> Sensitive data can be processed inside an isolated environment. Ask who operates it, how its configuration is verified, and what access or recovery looks like if the operator is unavailable.</li>
+</ul>
+
+<h2>Run the same test with each provider</h2>
+<p>Give each provider the same transfer, with a permitted buyer, a rejected buyer, and an audit request. Check what each participant and the operator can see. Test key recovery, revocation, and how the transfer integrates with custody and settlement. Ask for evidence of a live deployment that resembles your use case, and record pilots and audit coverage separately.</p>
+<p>The result should be a short list of controls the institution can explain and operate. That is a stronger basis for choosing a privacy solution than comparing cryptographic features in isolation.</p>
+    </article>
+    <section class="story-sources" aria-label="Sources and related work">
+      <h2>Sources</h2>
+      <ul><li><a href="https://entethalliance.org/eea-privacy-ethereum/">A field guide to privacy on Ethereum</a></li>
+<li><a href="https://hub.entethalliance.org/wg-privacy/privacy-report.html">EEA Privacy Working Group report</a></li></ul>
+
+    </section>
+  </main>
+</div>
+</div></body>
+</html>

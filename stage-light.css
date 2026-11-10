@@ -1,0 +1,235 @@
+html { background: #10151e; }
+body { margin: 0; }
+
+#redwan-design-directions {
+  container-type: inline-size;
+}
+#redwan-design-directions .direction {
+  --gutter: clamp(20px, 5cqw, 64px);
+  min-width: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.5 "Helvetica Neue", Arial, sans-serif;
+}
+#redwan-design-directions .direction * { box-sizing: border-box; }
+#redwan-design-directions .direction a { color: inherit; }
+#redwan-design-directions .direction a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+#redwan-design-directions .direction-nav {
+  position: relative; z-index: 1; min-height: 64px; margin: 0 var(--gutter);
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+  column-gap: 20px; padding: 8px 0;
+  font-size: 14px; font-weight: 500;
+}
+#redwan-design-directions .direction-nav nav { display: flex; gap: clamp(12px, 2cqw, 24px); }
+#redwan-design-directions .direction-nav a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; }
+#redwan-design-directions a:hover { text-decoration: underline; text-underline-offset: 4px; }
+#redwan-design-directions .direction-hero { position: relative; isolation: isolate; min-width: 0; }
+#redwan-design-directions .direction-name {
+  margin: 0 0 16px; color: inherit; font-weight: 400; line-height: .95; letter-spacing: -.04em;
+}
+#redwan-design-directions .direction-role { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
+#redwan-design-directions .direction-deck {
+  margin: 0 0 10px; max-width: 25ch;
+  font-size: clamp(21px, 2.65cqw, 33px); font-weight: 550; line-height: 1.14; letter-spacing: -.025em;
+}
+#redwan-design-directions .direction-summary { margin: 0; max-width: 42ch; color: var(--muted); }
+#redwan-design-directions .direction-contact { display: inline-flex; align-items: center; gap: .75em; min-height: 44px; margin-top: 9px; font-size: 14px; }
+#redwan-design-directions .direction-photo { display: block; width: 100%; height: 100%; object-fit: cover; }
+#redwan-design-directions .direction-experience { padding: 24px var(--gutter) 28px; }
+#redwan-design-directions .direction-kicker {
+  margin: 0 0 8px; font: 600 12px/1.5 "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .065em; text-transform: uppercase; color: var(--muted);
+}
+#redwan-design-directions .direction-experience ul {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 0; padding: 0;
+  list-style: none; font-size: clamp(15px, 2cqw, 21px);
+}
+#redwan-design-directions .direction-experience li + li::before { content: "·"; margin-right: 12px; color: var(--muted); }
+#redwan-design-directions .direction-work { padding: 35px var(--gutter) 40px; }
+#redwan-design-directions .direction-work h2 {
+  margin: 0 0 10px; color: inherit; font: 400 clamp(28px, 4.6cqw, 52px)/1.05 Georgia, serif;
+  letter-spacing: -.035em;
+}
+#redwan-design-directions .direction-entry {
+  display: grid; grid-template-columns: 7ch minmax(0, 1fr) 18px; align-items: baseline;
+  gap: 12px; padding: 12px 0; text-decoration: none;
+}
+#redwan-design-directions .direction-entry + .direction-entry { border-top: 1px solid var(--rule); }
+#redwan-design-directions .direction-entry:hover { text-decoration: none; }
+#redwan-design-directions .direction-entry:hover .direction-entry-title { text-decoration: underline; text-underline-offset: 4px; }
+#redwan-design-directions .direction-kind { font-size: 13px; color: var(--muted); }
+#redwan-design-directions .direction-entry-title { font-size: clamp(18px, 2.25cqw, 25px); line-height: 1.2; }
+#redwan-design-directions .direction-context { display: block; margin-top: 3px; font-size: 14px; color: var(--muted); }
+#redwan-design-directions .direction-arrow { justify-self: end; }
+
+#redwan-design-directions .stage {
+  color-scheme: dark; --paper: #10151e; --ink: #f7f5ed; --muted: #bac2cd; --rule: #343d48;
+}
+#redwan-design-directions .stage .direction-hero {
+  display: grid; align-items: end; min-height: clamp(420px, 48cqw, 540px);
+}
+#redwan-design-directions .stage .direction-intro { padding: 48px 0 42px var(--gutter); width: min(51%, 530px); }
+#redwan-design-directions .stage .direction-name {
+  font: 400 clamp(58px, 8.7cqw, 105px)/.88 Georgia, serif;
+  letter-spacing: -.045em; max-width: 7ch; margin-bottom: 24px;
+}
+#redwan-design-directions .stage .direction-photo {
+  position: absolute; z-index: -1; inset: 0 0 0 auto; width: 63%; object-position: 50% 14%;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 38%);
+}
+#redwan-design-directions .stage .direction-experience { background: #1a2432; }
+#redwan-design-directions .stage .direction-work { background: #141c28; }
+
+#redwan-design-directions .gallery {
+  color-scheme: light; --paper: #fbfaf6; --ink: #201f1b; --muted: #5e5a52; --rule: #dedbd2;
+}
+#redwan-design-directions .gallery .direction-hero {
+  margin: 14px var(--gutter) 0; display: grid;
+  grid-template: "photo intro" / minmax(0, 1.02fr) minmax(0, 1fr);
+  align-items: center; gap: clamp(18px, 6cqw, 80px);
+}
+#redwan-design-directions .gallery .direction-intro { grid-area: intro; }
+#redwan-design-directions .gallery .direction-photo {
+  grid-area: photo; aspect-ratio: .98; height: auto; object-position: center 24%;
+}
+#redwan-design-directions .gallery .direction-name { font: 400 clamp(50px, 7.5cqw, 96px)/.9 Georgia, serif; letter-spacing: -.04em; max-width: 7ch; }
+#redwan-design-directions .gallery .direction-experience { padding-top: clamp(30px, 5cqw, 60px); }
+#redwan-design-directions .gallery .direction-work { background: #f0eee7; }
+
+#redwan-design-directions .poster {
+  color-scheme: light; --paper: #c9c5f5; --ink: #211d32; --muted: #4c4761; --rule: #d6d2e2;
+}
+#redwan-design-directions .poster .direction-hero {
+  display: grid; grid-template: "name name" auto "intro photo" 1fr / 1fr 1.22fr;
+  align-items: end; column-gap: clamp(20px, 5cqw, 52px); padding: 10px var(--gutter) 0;
+}
+#redwan-design-directions .poster .direction-intro { display: contents; }
+#redwan-design-directions .poster .direction-name {
+  grid-area: name; font-size: clamp(40px, 11.4cqw, 137px);
+  font-weight: 650; letter-spacing: -.04em; margin-bottom: 20px;
+}
+#redwan-design-directions .poster .direction-details { grid-area: intro; align-self: center; padding-bottom: 14px; }
+#redwan-design-directions .poster .direction-photo {
+  grid-area: photo; width: 100%; height: auto; aspect-ratio: 1.53; object-position: center 20%;
+}
+#redwan-design-directions .poster .direction-experience { background: #c9c5f5; }
+#redwan-design-directions .poster .direction-work { background: #f8f6ff; }
+
+@container (max-width: 590px) {
+  #redwan-design-directions .direction-nav { column-gap: 10px; font-size: 13px; }
+  #redwan-design-directions .direction-summary { font-size: 15px; }
+  #redwan-design-directions .stage .direction-hero { display: flex; flex-direction: column; align-items: stretch; }
+  #redwan-design-directions .stage .direction-intro { width: auto; padding: 12px var(--gutter) 12px; }
+  #redwan-design-directions .stage .direction-name,
+  #redwan-design-directions .gallery .direction-name { max-width: none; font-size: clamp(40px, 11cqw, 65px); margin-bottom: 14px; }
+  #redwan-design-directions .stage .direction-photo {
+    position: static; z-index: auto; width: 100%; height: auto; aspect-ratio: 1.6;
+    object-position: 50% 15%; mask-image: none;
+  }
+  #redwan-design-directions .gallery .direction-hero { margin-top: 10px; grid-template: "photo" "intro" / minmax(0, 1fr); }
+  #redwan-design-directions .gallery .direction-photo { aspect-ratio: 1.63; }
+  #redwan-design-directions .poster .direction-hero { grid-template: "name" "intro" "photo" / minmax(0, 1fr); }
+  #redwan-design-directions .poster .direction-name { margin-bottom: 16px; }
+  #redwan-design-directions .direction-experience ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 8px; font-size: 14px; }
+  #redwan-design-directions .direction-experience li + li::before { content: none; }
+  #redwan-design-directions .direction-entry { grid-template-columns: 6ch minmax(0, 1fr) 14px; gap: 8px; }
+}
+
+#redwan-design-directions button.research-card,
+#redwan-design-directions button.story-back {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  text-align: left;
+}
+#redwan-design-directions button.research-card { color: inherit; }
+#redwan-design-directions .research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2cqw, 24px);
+  padding: 12px 0 0;
+}
+#redwan-design-directions .research-card {
+  --story-accent: #c6d5ee;
+  --story-surface: #1d2938;
+  display: grid;
+  border-radius: 14px;
+}
+#redwan-design-directions .identity { --story-accent: #dceaa1; --story-surface: #1d2a3b; }
+#redwan-design-directions .privacy { --story-accent: #b8d5ff; --story-surface: #202940; }
+#redwan-design-directions .research-card,
+#redwan-design-directions .research-card:hover { text-decoration: none; }
+#redwan-design-directions .research-card-face {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 9px;
+  padding: clamp(16px, 2.45cqw, 30px);
+  background: var(--story-surface);
+  border: 1px solid #435267;
+  border-radius: inherit;
+}
+#redwan-design-directions .research-topic { color: var(--story-accent); font-size: 13px; font-weight: 550; }
+#redwan-design-directions .research-title {
+  font: 400 clamp(24px, 3.35cqw, 40px)/1.06 Georgia, serif;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+#redwan-design-directions .research-deck { color: var(--muted); font-size: 15px; }
+#redwan-design-directions .research-action { margin-top: auto; padding-top: 5px; color: var(--story-accent); font-size: 14px; }
+#redwan-design-directions .research-card:focus-visible { outline-color: var(--story-accent); }
+@media (hover: hover) and (pointer: fine) {
+  #redwan-design-directions .research-card:hover .research-card-face { border-color: var(--story-accent); }
+  #redwan-design-directions .research-card:hover .research-action { text-decoration: underline; text-underline-offset: 4px; }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  #redwan-design-directions .research-card-face { transition: transform 180ms cubic-bezier(.23,1,.32,1), border-color 180ms ease; }
+  #redwan-design-directions .research-card:hover .research-card-face { transform: translateY(-2px); }
+}
+@container (max-width: 590px) {
+  #redwan-design-directions .research-grid { grid-template-columns: minmax(0, 1fr); }
+}
+#redwan-design-directions .story-inner {
+  width: min(100%, 810px);
+  margin-inline: auto;
+  padding: clamp(22px, 5cqw, 60px) var(--gutter) 72px;
+}
+#redwan-design-directions .story-back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--story-accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+#redwan-design-directions .story-header { padding: 20px 0 28px; border-bottom: 1px solid var(--rule); }
+#redwan-design-directions .story-header h1 {
+  margin: 8px 0 14px;
+  font: 400 clamp(38px, 6.3cqw, 70px)/1.02 Georgia, serif;
+  letter-spacing: -.04em;
+  text-wrap: balance;
+}
+#redwan-design-directions .story-header p { max-width: 53ch; margin: 0 0 14px; color: var(--muted); font-size: clamp(17px, 2.2cqw, 22px); }
+#redwan-design-directions .story-header .story-byline { margin: 0; font-size: 14px; }
+#redwan-design-directions .story-copy { font-size: clamp(16px, 1.8cqw, 18px); line-height: 1.67; }
+#redwan-design-directions .story-copy h2,
+#redwan-design-directions .story-sources h2 { margin: 30px 0 10px; font: 400 clamp(25px, 3.3cqw, 34px)/1.1 Georgia, serif; }
+#redwan-design-directions .story-copy p { margin: 0 0 15px; }
+#redwan-design-directions .story-copy li { padding-left: 3px; margin-bottom: 9px; }
+#redwan-design-directions .story-sources { margin-top: 30px; border-top: 1px solid var(--rule); }
+#redwan-design-directions .story-sources ul { margin: 0; padding: 0; list-style: none; }
+#redwan-design-directions .story-sources a { display: inline-flex; align-items: center; min-height: 44px; color: var(--story-accent); text-underline-offset: 4px; }
+
+#redwan-design-directions .stage-skip {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 16px;
+  padding: 10px 14px;
+  background: #f7f5ed;
+  color: #10151e;
+  transform: translateY(-160%);
+}
+#redwan-design-directions .stage-skip:focus { transform: translateY(0); }

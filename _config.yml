@@ -288,6 +288,8 @@ exclude:
   - projects.html.md
   - ai-operations.html.md
   - speaking-media.html.md
+  - passport-for-tokenized-markets.html.md
+  - choosing-ethereum-privacy.html.md
 
 plugins:
   - jekyll-paginate

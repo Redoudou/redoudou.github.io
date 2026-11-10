@@ -2,24 +2,20 @@
 
 Executive Director, Enterprise Ethereum Alliance
 
-I help global institutions adopt Ethereum and decentralized systems through digital asset strategy, tokenization and open standards.
+Digital asset strategy, from thesis to implementation.
 
-[LinkedIn](https://www.linkedin.com/in/redwanmeslem/) [My GitHub](https://github.com/Redoudou) [EEA GitHub](https://github.com/EntEthAlliance)
+I help institutions assess where digital asset markets are headed, what Ethereum can support, and what it takes to build on it. At the EEA, I bring protocol teams, banks, and market infrastructure providers together to do that work.
 
-Ethereum · Institutions
+[Connect on LinkedIn ↗ ](https://www.linkedin.com/in/redwanmeslem/)
 
-## Events
+## Experience
 
-[Explore events →](https://helloredwan.me/speaking-media.html)
+- Protocol R&D
+- Banking
+- Institutional programs
 
-ADGM · Abu Dhabi
+## Selected work
 
-DTCC & BNY · NYC
-
-Christine Moy, Apollo · NYSE
-
-## Background
-
-Aerospace →  Banking →  Enterprise IT & architecture →  Web3 infrastructure →  Ethereum
+[  Fireside · Nov. 6, 2026  Scaling capital markets with Dan Doney of DTCC  Privacy, interoperability, and what institutions need to operate across blockchain networks.  View event ↗     ](https://luma.com/eea-dtcc-privacy)  [  Identity & tokenization  A passport for tokenized markets  How shared eligibility credentials could help assets circulate across Ethereum networks.  Read article →     ](https://helloredwan.me/passport-for-tokenized-markets.html)  [  Privacy & market infrastructure  How to choose a privacy solution on Ethereum  A practical way to compare privacy options around a real institutional transaction.  Read article →     ](https://helloredwan.me/choosing-ethereum-privacy.html)  [  Program  Ethereum Intelligence  Private briefings with Ethereum engineers help financial institutions anticipate upgrades and decide what to build.  Explore the program ↗     ](https://intelligence.entethalliance.org/)  [  Fireside  At the NYSE with Christine Moy of Apollo  What it takes for institutions to move onchain.  Watch the conversation ↗     ](https://www.youtube.com/watch?v=SIq8x2nVIM8)  [  Essay  Running an organization with agents  How to connect information, coordinate work, and keep people responsible for decisions.  Read article ↗     ](https://helloredwan.me/ai-operations.html)
 
 Source: https://helloredwan.me/

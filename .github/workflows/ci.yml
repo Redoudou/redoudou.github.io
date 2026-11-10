@@ -33,13 +33,15 @@ jobs:
       - name: Preserve standalone pages and the production domain
         run: |
           sudo chown -R "$(id -u):$(id -g)" _site
-          cp index.html speaking-media.html projects.html ai-operations.html CNAME _site/
+          standalone=(index.html speaking-media.html projects.html ai-operations.html
+            passport-for-tokenized-markets.html choosing-ethereum-privacy.html stage-light.css)
+          cp "${standalone[@]}" CNAME _site/
           cp robots.txt llms.txt sitemap-main.xml profile.md *.html.md _site/
           for file in robots.txt llms.txt sitemap-main.xml profile.md *.html.md; do
             cmp "$file" "_site/$file"
           done
           touch _site/.nojekyll
-          for page in index.html speaking-media.html projects.html ai-operations.html; do
+          for page in "${standalone[@]}"; do
             cmp "$page" "_site/$page"
           done
           test "$(cat _site/CNAME)" = "helloredwan.me"
