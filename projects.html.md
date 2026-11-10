@@ -10,63 +10,81 @@ Featured program
 
 Helping institutions turn Ethereum upgrades into product decisions.
 
-↗  ](https://intelligence.entethalliance.org/)
+View project ↗
+
+](https://intelligence.entethalliance.org/)
 - [
 
 ## Digital Asset Policy Tracker
 
 Track 20 global agencies and their digital asset policy news.
 
-↗ ](https://policy.entethalliance.org/)
+View project ↗
+
+](https://policy.entethalliance.org/)
 - [
 
 ## Shibui
 
 An experiment in identity standards on Ethereum using the Ethereum Attestation Service. Think ICAO for tokenized financial instruments.
 
-↗ ](https://hub.entethalliance.org/rnd-rwa-erc3643-eas/)
+View project ↗
+
+](https://hub.entethalliance.org/rnd-rwa-erc3643-eas/)
 - [
 
 ## Rialto
 
 Connecting the AP2 payment standard to Ethereum standards so agents can pay onchain.
 
-↗ ](https://hub.entethalliance.org/rialto-ap2-eth/)
+View project ↗
+
+](https://hub.entethalliance.org/rialto-ap2-eth/)
 - [
 
 ## The EIP Matrix
 
 Ethereum proposals and their product impact.
 
-↗ ](https://intelligence.entethalliance.org/eip-matrix.html)
+View project ↗
+
+](https://intelligence.entethalliance.org/eip-matrix.html)
 - [
 
 ## Ethereum Gas Fee Calculator
 
 Model L1 costs under proposed EIP-2780 changes.
 
-↗ ](https://intelligence.entethalliance.org/gas-simulator.html)
+View project ↗
+
+](https://intelligence.entethalliance.org/gas-simulator.html)
 - [
 
 ## The Trellis
 
 Compare rollups and networks by TVL and stablecoins.
 
-↗ ](https://hub.entethalliance.org/ops-finance/trellis/index.html)
+View project ↗
+
+](https://hub.entethalliance.org/ops-finance/trellis/index.html)
 - [
 
 ## Ethereum Atlas
 
 Who shapes Ethereum, and how to participate.
 
-↗ ](https://intelligence.entethalliance.org/atlas.html)
+View project ↗
+
+](https://intelligence.entethalliance.org/atlas.html)
 - [
 
 ## Ethereum Governance Futures
 
 Exploring how Ethereum makes decisions.
 
-↗ ](https://helloredwan.me/Ethereum-Governance-Futures/)
+View project ↗
+
+](https://helloredwan.me/Ethereum-Governance-Futures/)
 
 Earlier work at ChainSafe
 

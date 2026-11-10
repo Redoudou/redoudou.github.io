@@ -234,3 +234,119 @@ body { margin: 0; }
   transform: translateY(-160%);
 }
 #redwan-design-directions .stage-skip:focus { transform: translateY(0); }
+
+#redwan-design-directions .direction-nav nav a[aria-current="page"] {
+  color: #dceaa1;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+#redwan-design-directions .directory-page {
+  --story-accent: #c6d5ee;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: clamp(14px, 3cqw, 36px) var(--gutter) 68px;
+}
+#redwan-design-directions .directory-page .story-header { margin-bottom: 24px; }
+#redwan-design-directions .directory-page .story-header > p:last-child { margin-bottom: 0; }
+#redwan-design-directions .program-link { --story-accent: #dceaa1; }
+#redwan-design-directions .work-index {
+  margin: 0;
+  padding: 14px 0 0;
+  list-style: none;
+}
+#redwan-design-directions .work-index > li { display: grid; min-width: 0; }
+#redwan-design-directions .work-index .research-title { font-size: clamp(24px, 2.6cqw, 32px); }
+#redwan-design-directions .directory-page .research-title,
+#redwan-design-directions .directory-page .research-deck { margin: 0; }
+#redwan-design-directions .project-github,
+#redwan-design-directions .year-links { display: flex; flex-wrap: wrap; gap: 0 20px; }
+#redwan-design-directions .project-github a,
+#redwan-design-directions .year-links a,
+#redwan-design-directions .appearance-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--story-accent);
+  text-underline-offset: 4px;
+}
+#redwan-design-directions .year-links { margin-top: 10px; }
+#redwan-design-directions .directory-page .chronology-note { color: var(--muted); font-size: 14px; }
+#redwan-design-directions .appearance-year { margin: 0 0 38px; scroll-margin-top: 16px; }
+#redwan-design-directions .appearance-year > h2 {
+  margin: 0 0 14px;
+  font: 400 clamp(28px, 4cqw, 43px)/1.1 Georgia, serif;
+  letter-spacing: -.035em;
+}
+#redwan-design-directions .appearance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(14px, 2cqw, 24px);
+}
+#redwan-design-directions .appearance-card > summary {
+  list-style: none;
+  background: #1d2938;
+  border: 1px solid #435267;
+  border-radius: 14px;
+  overflow: hidden;
+}
+#redwan-design-directions .appearance-card summary::-webkit-details-marker { display: none; }
+#redwan-design-directions .appearance-card summary:focus-visible,
+#redwan-design-directions .directory-disclosure summary:focus-visible { outline: 2px solid var(--story-accent); outline-offset: 4px; }
+#redwan-design-directions .appearance-card summary > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--paper);
+}
+#redwan-design-directions .appearance-preview,
+#redwan-design-directions .appearance-details { padding: clamp(16px, 2cqw, 24px); }
+#redwan-design-directions .appearance-date { color: var(--story-accent); font-size: 13px; }
+#redwan-design-directions .appearance-preview h3 {
+  margin: 6px 0 0;
+  font: 400 clamp(23px, 2.7cqw, 32px)/1.12 Georgia, serif;
+  letter-spacing: -.025em;
+}
+#redwan-design-directions .appearance-venue,
+#redwan-design-directions .recording-note { margin: 6px 0 0; color: var(--muted); }
+#redwan-design-directions .appearance-more {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 10px;
+  color: var(--story-accent);
+  font-size: 14px;
+}
+#redwan-design-directions .appearance-card .open-label,
+#redwan-design-directions .appearance-card[open] .closed-label { display: none; }
+#redwan-design-directions .appearance-card[open] .open-label { display: inline; }
+#redwan-design-directions .appearance-card[open] .appearance-plus { transform: rotate(45deg); }
+#redwan-design-directions .appearance-card[open] > summary { border-radius: 14px 14px 0 0; }
+#redwan-design-directions .appearance-details {
+  background: #1d2938;
+  border: 1px solid #435267;
+  border-top: 0;
+  border-radius: 0 0 14px 14px;
+}
+#redwan-design-directions .appearance-details > p { margin: 0; }
+#redwan-design-directions .directory-disclosure {
+  margin: 24px 0 8px;
+  padding: 12px 0;
+  border-block: 1px solid var(--rule);
+}
+#redwan-design-directions .directory-disclosure summary { min-height: 44px; line-height: 44px; color: var(--story-accent); }
+#redwan-design-directions .directory-disclosure p { color: var(--muted); }
+#redwan-design-directions .directory-disclosure .event-history h3 { margin: 14px 0 2px; }
+#redwan-design-directions .directory-disclosure .event-history p { margin: 0; }
+@media (hover: hover) and (pointer: fine) {
+  #redwan-design-directions .directory-disclosure summary,
+  #redwan-design-directions .appearance-card summary { cursor: pointer; }
+  #redwan-design-directions .appearance-card:not([open]):hover > summary { border-color: var(--story-accent); }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  #redwan-design-directions .appearance-card > summary { transition: transform 180ms cubic-bezier(.23,1,.32,1), border-color 180ms ease; }
+  #redwan-design-directions .appearance-card:not([open]):hover > summary { transform: translateY(-2px); }
+}
+@container (max-width: 590px) {
+  #redwan-design-directions .appearance-grid { grid-template-columns: minmax(0, 1fr); }
+}
