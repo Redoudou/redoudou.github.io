@@ -1,3 +1,5 @@
+[←   Back to Selected work](https://helloredwan.me/index.html#stage-work)   AI & Operations
+
 # Running an organization with agents
 
 How to connect information, coordinate work and keep people responsible for decisions.

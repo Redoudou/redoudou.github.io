@@ -157,6 +157,7 @@ body { margin: 0; }
   display: grid;
   border-radius: 14px;
 }
+#redwan-design-directions .story { --story-accent: #c6d5ee; }
 #redwan-design-directions .identity { --story-accent: #dceaa1; --story-surface: #1d2a3b; }
 #redwan-design-directions .privacy { --story-accent: #b8d5ff; --story-surface: #202940; }
 #redwan-design-directions .research-card,
