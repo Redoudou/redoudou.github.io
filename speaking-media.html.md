@@ -8,6 +8,16 @@ Newest dated appearances first.
 
 ## 2026
 
+6 November 2026
+
+### Scaling capital markets with Dan Doney of DTCC
+
+Enterprise Ethereum Alliance and The Rollup · New York
+
+A fireside on privacy, interoperability, and the standards institutions need to operate across blockchain networks.
+
+[View event ↗](https://luma.com/eea-dtcc-privacy)
+
 5 June 2026
 
 ### Fireside with Christine Moy, Apollo

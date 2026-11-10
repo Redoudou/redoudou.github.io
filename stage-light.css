@@ -350,3 +350,4 @@ body { margin: 0; }
 @container (max-width: 590px) {
   #redwan-design-directions .appearance-grid { grid-template-columns: minmax(0, 1fr); }
 }
+#redwan-design-directions .featured-appearance { grid-column: 1 / -1; }
