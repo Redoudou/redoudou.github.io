@@ -117,11 +117,17 @@ body { margin: 0; }
 
 @container (max-width: 590px) {
   #redwan-design-directions .direction-nav { column-gap: 10px; font-size: 13px; }
+  #redwan-design-directions .direction-nav nav { gap: 4px; }
+  #redwan-design-directions .direction-nav nav a {
+    min-inline-size: 44px;
+    justify-content: center;
+    padding-inline: 4px;
+  }
   #redwan-design-directions .direction-summary { font-size: 15px; }
   #redwan-design-directions .stage .direction-hero { display: flex; flex-direction: column; align-items: stretch; }
   #redwan-design-directions .stage .direction-intro { width: auto; padding: 12px var(--gutter) 12px; }
   #redwan-design-directions .stage .direction-name,
-  #redwan-design-directions .gallery .direction-name { max-width: none; font-size: clamp(40px, 11cqw, 65px); margin-bottom: 14px; }
+  #redwan-design-directions .gallery .direction-name { max-width: none; font-size: clamp(34px, 11cqw, 65px); margin-bottom: 14px; }
   #redwan-design-directions .stage .direction-photo {
     position: static; z-index: auto; width: 100%; height: auto; aspect-ratio: 1.6;
     object-position: 50% 15%; mask-image: none;
@@ -181,6 +187,7 @@ body { margin: 0; }
 #redwan-design-directions .research-deck { color: var(--muted); font-size: 15px; }
 #redwan-design-directions .research-action { margin-top: auto; padding-top: 5px; color: var(--story-accent); font-size: 14px; }
 #redwan-design-directions .research-card:focus-visible { outline-color: var(--story-accent); }
+#redwan-design-directions .research-card:active .research-card-face { border-color: var(--story-accent); }
 @media (hover: hover) and (pointer: fine) {
   #redwan-design-directions .research-card:hover .research-card-face { border-color: var(--story-accent); }
   #redwan-design-directions .research-card:hover .research-action { text-decoration: underline; text-underline-offset: 4px; }
@@ -351,3 +358,8 @@ body { margin: 0; }
   #redwan-design-directions .appearance-grid { grid-template-columns: minmax(0, 1fr); }
 }
 #redwan-design-directions .featured-appearance { grid-column: 1 / -1; }
+
+@container (max-width: 340px) {
+  #redwan-design-directions .direction-nav { margin-inline: 16px; }
+  #redwan-design-directions .direction-work .research-title { text-wrap: wrap; }
+}
